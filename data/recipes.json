@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Lazanje",
+    "ingredients": [
+        {
+        "name": "kore za lazanje",
+        "quantity": 1,
+        "unit": "pakovanje"
+      },
+      {
+        "name": "crni luk",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "beli luk",
+        "quantity": 4,
+        "unit": "čena"
+      },
+      {
+        "name": "narendane šargarepe",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "svinjsko meso",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "juneće meso",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "paradajz sos",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "ulje",
+        "quantity": 4,
+        "unit": "kašike"
+      },
+      {
+        "name": "puter",
+        "quantity": 3,
+        "unit": "kašike"
+      },
+      {
+        "name": "brašno",
+        "quantity": 2,
+        "unit": "kašike"
+      },
+      {
+        "name": "mleko",
+        "quantity": 3,
+        "unit": "šolje"
+      },
+            {
+        "name": "sir",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "parmezan",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Ispržiti crni i beli luk. Dodati meso i šargarepe.",
+      "Kada se proprži dodati sos od paradajza, začiniti po želji (so, biber, vegeta) i kuvati na laganoj vatri oko pola sata.",
+      "Za bešamel sos, na ulju i puteru propržiti brašno, na vrlo niskoj temperaturi.",
+      "Polako dodavati mleko, stalno mešajući. Dodati i začine,a zatim i narendani sir.",
+      "U posudu za pečenje prvo staviti red mea, preko toga staviti red kora za lazanje, zatim red belog sosa i sir. Ponoviti postupak dok imate sastojaka i na kraju dodajte parmezan.",
+      "Pokriti aluminijumskom folijom i peći oko 1 sat na 180°C. Nakon sat vremena skloniti foliju i zapeći još 10 minuta."
+    ],
+    "image": "lazanje.jpg"
+  },
+  {
+    "name": "Musaka",
+    "ingredients": [
+        {
+        "name": "krompir",
+        "quantity": 700,
+        "unit": "g"
+      },
+      {
+        "name": "mleveno meso",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "crveni luk",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "ljubičasti luk",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "beli luk",
+        "quantity": 3,
+        "unit": "čena"
+      },
+      {
+        "name": "tikvica",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "crvena paprika",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "jaja",
+        "quantity": 3,
+        "unit": " "
+      },
+      {
+        "name": "mleko",
+        "quantity": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "šargarepa",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "maslinovo ulje",
+        "quantity": 1,
+        "unit": "kašika"
+      }
+    ],
+    "steps": [
+      "Na maslinovom ulju ispržiti crveni i ljubičasti luk, a zatim dodati šargarepu.",
+      "Dodati iseckanu tikvicu i papriku. Kada povrće omekša dodati meso, beli luk i začine po izboru. Pržite dok meso ne bude gotovo.",
+      "Krompir isecite na tanke krugove. Stavite malo ulja i soli i promešajte.",
+      "U pleh dodajte malo ulja zatim polovinu krompira na dno. Po tome raspodelite prethodno napravljenu mešavinu i preostalu polovinu krompira.",
+      "Prekrijte aluminijumskom folijom i pecite 40 minuta na 200°C.",
+      "Nakon 40 minuta sklonite foliju, prelijte umućenim jajima i mlekom i ostavite da se peče jos 10-15min."
+    ],
+    "image": "musaka.jpg"
+  }
+]
