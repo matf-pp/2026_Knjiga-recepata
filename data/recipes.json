@@ -3,7 +3,7 @@
     "name": "Lazanje",
     "ingredients": [
         {
-        "name": "kore za lazanje",
+        "name": "kora za lazanje",
         "quantity": 1,
         "unit": "pakovanje"
       },
@@ -13,7 +13,7 @@
         "unit": " "
       },
       {
-        "name": "beli luk",
+        "name": "belog luka",
         "quantity": 4,
         "unit": "čena"
       },
@@ -23,47 +23,47 @@
         "unit": "g"
       },
       {
-        "name": "svinjsko meso",
+        "name": "svinjskog mesa",
         "quantity": 250,
         "unit": "g"
       },
       {
-        "name": "juneće meso",
+        "name": "junećeg mesa",
         "quantity": 250,
         "unit": "g"
       },
       {
-        "name": "paradajz sos",
+        "name": "paradajz sosa",
         "quantity": 500,
         "unit": "ml"
       },
       {
-        "name": "ulje",
+        "name": "ulja",
         "quantity": 4,
         "unit": "kašike"
       },
       {
-        "name": "puter",
+        "name": "putera",
         "quantity": 3,
         "unit": "kašike"
       },
       {
-        "name": "brašno",
+        "name": "brašna",
         "quantity": 2,
         "unit": "kašike"
       },
       {
-        "name": "mleko",
+        "name": "mleka",
         "quantity": 3,
         "unit": "šolje"
       },
             {
-        "name": "sir",
+        "name": "sira",
         "quantity": 500,
         "unit": "g"
       },
       {
-        "name": "parmezan",
+        "name": "parmezana",
         "quantity": 150,
         "unit": "g"
       }
@@ -82,12 +82,12 @@
     "name": "Musaka",
     "ingredients": [
         {
-        "name": "krompir",
+        "name": "krompira",
         "quantity": 700,
         "unit": "g"
       },
       {
-        "name": "mleveno meso",
+        "name": "mlevenog mesa",
         "quantity": 500,
         "unit": "g"
       },
@@ -102,7 +102,7 @@
         "unit": " "
       },
       {
-        "name": "beli luk",
+        "name": "belog luka",
         "quantity": 3,
         "unit": "čena"
       },
@@ -122,7 +122,7 @@
         "unit": " "
       },
       {
-        "name": "mleko",
+        "name": "mleka",
         "quantity": 400,
         "unit": "ml"
       },
@@ -132,7 +132,7 @@
         "unit": " "
       },
       {
-        "name": "maslinovo ulje",
+        "name": "maslinovog ulja",
         "quantity": 1,
         "unit": "kašika"
       }
@@ -146,5 +146,196 @@
       "Nakon 40 minuta sklonite foliju, prelijte umućenim jajima i mlekom i ostavite da se peče jos 10-15min."
     ],
     "image": "musaka.jpg"
+  },
+  {
+    "name": "Kiflice",
+    "ingredients": [
+        {
+        "name": "glatkog brašna",
+        "quantity": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "mleka",
+        "quantity": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "vode",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "jogurta",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "prašak za pecivo",
+        "quantity": 1,
+        "unit": " "
+      },
+      {
+        "name": "suvog kvasca",
+        "quantity": 1,
+        "unit": "kesica"
+      },
+      {
+        "name": "šećera",
+        "quantity": 1,
+        "unit": "kašičica"
+      },
+      {
+        "name": "soli",
+        "quantity": 1,
+        "unit": "kašičica"
+      },
+      {
+        "name": "jaje",
+        "quantity": 1,
+        "unit": " "
+      }
+    ],
+    "steps": [
+      "U malo toplog mleka dodati kvasac, šećer i kašiku brašna i ostaviti 5-10 minuta.",
+      "U brašno dodajte prašak za pecivo i so, a zatim dodajte mešavinu mleka, kvasca i šećera, a zatim i sve ostale mokre sastojke.",
+      "Sve dobro umesite i ostavite da odmori oko 30 minuta.",
+      "Stavite testo na radnu podlogu i podelite na 8 delova, a svaki deo razvijte oklagijom i podelite na 8 trouglova.",
+      "Koristite punjenje po želji (sir, sir-šunka, krem, džem,...) i ređajte na pleh.",
+      "Premažite ih umućenim jajetom i ukoliko želite pospite ih susamom ili kimom.",
+      "Stavite ih na pečenje na 200°C dok ne dobiju zlatnu boju."
+    ],
+    "image": "kiflice.jpg"
+  },
+  {
+    "name": "Mini pizze",
+    "ingredients": [
+        {
+        "name": "glatkog brašna",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "suvog kvasca",
+        "quantity": 7,
+        "unit": "g"
+      },
+      {
+        "name": "šećera",
+        "quantity": 1,
+        "unit": "kašika"
+      },
+      {
+        "name": "soli",
+        "quantity": 1,
+        "unit": "kašičica"
+      },
+      {
+        "name": "ulja",
+        "quantity": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "mleka",
+        "quantity": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "vode",
+        "quantity": 255,
+        "unit": "ml"
+      },
+      {
+        "name": "sira",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "šunke",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "paradajz sosa",
+        "quantity": 50,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Umutiti toplo mleko,toplu vodu, šećer i kvasac. Ostaviti 10 minuta da naraste. ",
+      "Dodati ulje, brašno i so. Zamesiti testo i ostaviti na toplom mestu oko sat vremena. ",
+      "Podeliti testo na 16 jednakih delova i oblikovati male krugove. ",
+      "Na svaki krug staviti paradajz sos, sir i šunku. Posuti origanom po želji i peći okob 15 minuta na 200°C."
+    ],
+    "image": "mini_pizze.jpg"
+  },
+  {
+    "name": "Cimet rolnice",
+    "ingredients": [
+        {
+        "name": "mleka",
+        "quantity": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "suvi kvasac",
+        "quantity": 5,
+        "unit": "g"
+      },
+      {
+        "name": "šećer",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "name": "so",
+        "quantity": 1,
+        "unit": "kašičica"
+      },
+      {
+        "name": "maslaca",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "jaja",
+        "quantity": 2,
+        "unit": " "
+      },
+      {
+        "name": "brašna",
+        "quantity": 650,
+        "unit": "g"
+      },
+      {
+        "name": "cimeta",
+        "quantity": 3,
+        "unit": "kesice"
+      },
+      {
+        "name": "smeđeg šećera",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "margarin",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "krem sira",
+        "quantity": 250,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "U toplo mleko dodati kvasac, šećer i kašiku brašna. Ostaviti da se kvasac podigne 10 minuta. ",
+      "Dodati otopljeni maslac, so i jaja, a zatim brašno. Zamesiti glatko testo i ostaviti da naraste. ",
+      "Oklagijom razvaljati testo, na njega staviti umućen cimet, 100g smeđeg šećera i margarin sobne temperature. ",
+      "Zarolati testo, iseći i ređati rolnice u pleh. Peči na 180°C dok ne porumene. ",
+      "Od ostatka smeđeg šećera, krem sira napraviti fil i premazati svaku rolnicu nakon što se prohlade."
+    ],
+    "image": "cimet_rolnice.jpg"
   }
+
 ]
