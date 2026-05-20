@@ -31,6 +31,7 @@ func (ii *InvertedIndex) AddRecipe(r *Recipe) {
 	}
 }
 
+// Vracamo sve namernice koje imamo
 func (ii *InvertedIndex) IngredientNames() []string {
 	var names []string
 

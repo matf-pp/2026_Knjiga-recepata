@@ -113,9 +113,8 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		"Biranje namirnica",
 		18,
 		func() {
-			placeholderScreen(
+			ShowIngredientSearch(
 				w,
-				"Namirnice",
 				recipes,
 				ii,
 			)
