@@ -4,17 +4,17 @@
     "ingredients": [
       {"name": "kora za lazanje","quantity": 1,"unit": "pakovanje"},
       {"name": "crni luk","quantity": 1,"unit": " "},
-      {"name": "belog luka", "quantity": 4,"unit": "čena"},
-      {"name": "narendane šargarepe","quantity": 100,"unit": "g"},
-      {"name": "svinjskog mesa","quantity": 250,"unit": "g"},
-      {"name": "junećeg mesa","quantity": 250,"unit": "g"},
-      {"name": "paradajz sosa","quantity": 500,"unit": "ml"},
-      {"name": "ulja","quantity": 4,"unit": "kašike"},
-      {"name": "putera","quantity": 3,"unit": "kašike"},
-      {"name": "brašna","quantity": 2,"unit": "kašike"},
-      {"name": "mleka","quantity": 3,"unit": "šolje"},
-      {"name": "sira","quantity": 500,"unit": "g"},
-      {"name": "parmezana","quantity": 150,"unit": "g"}
+      {"name": "beli luk", "quantity": 4,"unit": "čena"},
+      {"name": "narendana šargarepa","quantity": 100,"unit": "g"},
+      {"name": "svinjsko meso","quantity": 250,"unit": "g"},
+      {"name": "juneće meso","quantity": 250,"unit": "g"},
+      {"name": "paradajz sos","quantity": 500,"unit": "ml"},
+      {"name": "ulje","quantity": 4,"unit": "kašike"},
+      {"name": "puter","quantity": 3,"unit": "kašike"},
+      {"name": "brašno","quantity": 2,"unit": "kašike"},
+      {"name": "mleko","quantity": 3,"unit": "šolje"},
+      {"name": "sir","quantity": 500,"unit": "g"},
+      {"name": "parmezan","quantity": 150,"unit": "g"}
     ],
     "steps": [
       "Ispržiti crni i beli luk. Dodati meso i šargarepe.",
@@ -29,17 +29,17 @@
   {
     "name": "Musaka",
     "ingredients": [
-      {"name": "krompira","quantity": 700,"unit": "g"},
-      {"name": "mlevenog mesa","quantity": 500,"unit": "g"},
+      {"name": "krompir","quantity": 700,"unit": "g"},
+      {"name": "mleveno meso","quantity": 500,"unit": "g"},
       {"name": "crveni luk","quantity": 1,"unit": " "},
       {"name": "ljubičasti luk","quantity": 1,"unit": " "},
-      {"name": "belog luka","quantity": 3,"unit": "čena"},
+      {"name": "beli luk","quantity": 3,"unit": "čena"},
       {"name": "tikvica","quantity": 1,"unit": " "},
       {"name": "crvena paprika","quantity": 1,"unit": " "},
       {"name": "jaja","quantity": 3,"unit": " "},
-      {"name": "mleka","quantity": 400,"unit": "ml"},
+      {"name": "mleko","quantity": 400,"unit": "ml"},
       {"name": "šargarepa","quantity": 1,"unit": " "},
-      {"name": "maslinovog ulja","quantity": 1,"unit": "kašika"}
+      {"name": "maslinovo ulje","quantity": 1,"unit": "kašika"}
     ],
     "steps": [
       "Na maslinovom ulju ispržiti crveni i ljubičasti luk, a zatim dodati šargarepu.",
@@ -56,14 +56,14 @@
     "ingredients": [
       {"name": "glatkog brašna","quantity": 1,"unit": "kg"
       },
-      {"name": "mleka","quantity": 300,"unit": "ml"},
-      {"name": "vode","quantity": 200,"unit": "ml"},
-      {"name": "jogurta","quantity": 100,"unit": "ml"},
+      {"name": "mleko","quantity": 300,"unit": "ml"},
+      {"name": "voda","quantity": 200,"unit": "ml"},
+      {"name": "jogurt","quantity": 100,"unit": "ml"},
       {"name": "prašak za pecivo","quantity": 1,"unit": " "},
-      {"name": "suvog kvasca","quantity": 1,"unit": "kesica"},
-      {"name": "šećera","quantity": 1,"unit": "kašičica"},
-      {"name": "soli","quantity": 1,"unit": "kašičica"},
-      {"name": "jaje","quantity": 1,"unit": " "}
+      {"name": "suvi kvasac","quantity": 1,"unit": "kesica"},
+      {"name": "šećer","quantity": 1,"unit": "kašičica"},
+      {"name": "so","quantity": 1,"unit": "kašičica"},
+      {"name": "jaja","quantity": 1,"unit": " "}
     ],
     "steps": [
       "U malo toplog mleka dodati kvasac, šećer i kašiku brašna i ostaviti 5-10 minuta.",
@@ -79,16 +79,16 @@
   {
     "name": "Mini pizze",
     "ingredients": [
-      {"name": "glatkog brašna","quantity": 600,"unit": "g"},
-      {"name": "suvog kvasca","quantity": 7,"unit": "g"},
-      {"name": "šećera","quantity": 1,"unit": "kašika"},
-      {"name": "soli","quantity": 1,"unit": "kašičica"},
-      {"name": "ulja","quantity": 100,"unit": "ml"},
-      {"name": "mleka","quantity": 150,"unit": "ml"},
-      {"name": "vode","quantity": 255,"unit": "ml"},
-      {"name": "sira","quantity": 200,"unit": "g"},
-      {"name": "šunke","quantity": 150,"unit": "g"},
-      {"name": "paradajz sosa","quantity": 50,"unit": "ml"}
+      {"name": "glatko brašno","quantity": 600,"unit": "g"},
+      {"name": "suvi kvasac","quantity": 7,"unit": "g"},
+      {"name": "šećer","quantity": 1,"unit": "kašika"},
+      {"name": "so","quantity": 1,"unit": "kašičica"},
+      {"name": "ulje","quantity": 100,"unit": "ml"},
+      {"name": "mleko","quantity": 150,"unit": "ml"},
+      {"name": "voda","quantity": 255,"unit": "ml"},
+      {"name": "sir","quantity": 200,"unit": "g"},
+      {"name": "šunka","quantity": 150,"unit": "g"},
+      {"name": "paradajz sos","quantity": 50,"unit": "ml"}
     ],
     "steps": [
       "Umutiti toplo mleko,toplu vodu, šećer i kvasac. Ostaviti 10 minuta da naraste. ",
@@ -101,17 +101,17 @@
   {
     "name": "Cimet rolnice",
     "ingredients": [
-      {"name": "mleka","quantity": 250,"unit": "ml"},
+      {"name": "mleko","quantity": 250,"unit": "ml"},
       {"name": "suvi kvasac","quantity": 5,"unit": "g"},
       {"name": "šećer","quantity": 60,"unit": "g"},
       {"name": "so","quantity": 1,"unit": "kašičica"},
-      {"name": "maslaca","quantity": 80,"unit": "g"},
+      {"name": "maslac","quantity": 80,"unit": "g"},
       {"name": "jaja","quantity": 2,"unit": " "},
-      {"name": "brašna","quantity": 650,"unit": "g"},
-      {"name": "cimeta","quantity": 3,"unit": "kesice"},
-      {"name": "smeđeg šećera","quantity": 200,"unit": "g"},
+      {"name": "brašno","quantity": 650,"unit": "g"},
+      {"name": "cimet","quantity": 3,"unit": "kesice"},
+      {"name": "smeđi šećer","quantity": 200,"unit": "g"},
       {"name": "margarin","quantity": 150,"unit": "g"},
-      {"name": "krem sira","quantity": 250,"unit": "g"}
+      {"name": "krem sir","quantity": 250,"unit": "g"}
     ],
     "steps": [
       "U toplo mleko dodati kvasac, šećer i kašiku brašna. Ostaviti da se kvasac podigne 10 minuta. ",
@@ -125,14 +125,14 @@
   {
     "name": "Pasta Alfredo sa piletinom",
     "ingredients": [
-      {"name":"paste","quantity":400,"unit":"g"},
-      {"name":"pilećeg filea","quantity":500,"unit":"g"},
-      {"name":"neutralne pavlake","quantity":250,"unit":"ml"},
-      {"name":"parmezana","quantity":120,"unit":"g"},
-      {"name":"belog luka","quantity":4,"unit":"čena"},
-      {"name":"putera","quantity":50,"unit":"g"},
-      {"name":"maslinovog ulja","quantity":2,"unit":"kašike"},
-      {"name":"peršuna","quantity":20,"unit":"g"}
+      {"name":"pasta","quantity":400,"unit":"g"},
+      {"name":"pileći file","quantity":500,"unit":"g"},
+      {"name":"neutralna pavlaka","quantity":250,"unit":"ml"},
+      {"name":"parmezan","quantity":120,"unit":"g"},
+      {"name":"beli luk","quantity":4,"unit":"čena"},
+      {"name":"puter","quantity":50,"unit":"g"},
+      {"name":"maslinovo ulje","quantity":2,"unit":"kašike"},
+      {"name":"peršun","quantity":20,"unit":"g"}
     ],
     "steps": [
       "Pileći file isecite na tanke trakice, dodajte malo maslinovog ulja i začine po želji.",
@@ -149,14 +149,14 @@
   {
     "name": "Rižoto sa gamborima",
     "ingredients": [
-      {"name":"pirinča","quantity":300,"unit":"g"},
-      {"name":"gambora","quantity":350,"unit":"g"},
-      {"name":"crnog luka","quantity":1,"unit":" "},
-      {"name":"belog luka","quantity":3,"unit":"čena"},
-      {"name":"belog vina","quantity":100,"unit":"ml"},
-      {"name":"bujona","quantity":900,"unit":"ml"},
+      {"name":"pirinač","quantity":300,"unit":"g"},
+      {"name":"gambor","quantity":350,"unit":"g"},
+      {"name":"crni luk","quantity":1,"unit":" "},
+      {"name":"beli luk","quantity":3,"unit":"čena"},
+      {"name":"belo vino","quantity":100,"unit":"ml"},
+      {"name":"bujon","quantity":900,"unit":"ml"},
       {"name":"puter","quantity":40,"unit":"g"},
-      {"name":"parmezana","quantity":80,"unit":"g"}
+      {"name":"parmezan","quantity":80,"unit":"g"}
     ],
     "steps": [
       "Na puteru propržite sitno iseckan crni luk dok ne postane staklast.",
@@ -174,13 +174,13 @@
     "name": "Punjene paprike",
     "ingredients": [
       {"name":"paprika","quantity":8,"unit":" "},
-      {"name":"mlevenog mesa","quantity":600,"unit":"g"},
-      {"name":"pirinča","quantity":100,"unit":"g"},
-      {"name":"crna luka","quantity":2,"unit":" "},
-      {"name":"belog luka","quantity":3,"unit":"čena"},
-      {"name":"paradajz sosa","quantity":700,"unit":"ml"},
-      {"name":"šargarepa","quantity":1,"unit":" "},
-      {"name":"ulja","quantity":3,"unit":"kašike"}
+      {"name":"mleveno meso","quantity":600,"unit":"g"},
+      {"name":"pirinač","quantity":100,"unit":"g"},
+      {"name":"crni luk","quantity":2,"unit":" "},
+      {"name":"beli luk","quantity":3,"unit":"čena"},
+      {"name":"paradajz sos","quantity":700,"unit":"ml"},
+      {"name":"šargarep","quantity":1,"unit":" "},
+      {"name":"ulje","quantity":3,"unit":"kašike"}
     ],
     "steps": [
       "Operite paprike i odstranite im peteljke i semenke.",
@@ -198,14 +198,14 @@
     "name": "Lazanje sa piletinom i spanaćem",
     "ingredients": [
       {"name":"kora za lazanje","quantity":1,"unit":"pakovanje"},
-      {"name":"pilećeg filea","quantity":500,"unit":"g"},
-      {"name":"spanaća","quantity":250,"unit":"g"},
-      {"name":"neutralne pavlake","quantity":300,"unit":"ml"},
-      {"name":"sira","quantity":250,"unit":"g"},
-      {"name":"belog luka","quantity":4,"unit":"čena"},
-      {"name":"putera","quantity":50,"unit":"g"},
-      {"name":"brašna","quantity":2,"unit":"kašike"},
-      {"name":"mleka","quantity":500,"unit":"ml"}
+      {"name":"pileći file","quantity":500,"unit":"g"},
+      {"name":"spanać","quantity":250,"unit":"g"},
+      {"name":"neutralna pavlaka","quantity":300,"unit":"ml"},
+      {"name":"sir","quantity":250,"unit":"g"},
+      {"name":"beli luk","quantity":4,"unit":"čena"},
+      {"name":"puter","quantity":50,"unit":"g"},
+      {"name":"brašno","quantity":2,"unit":"kašike"},
+      {"name":"mleko","quantity":500,"unit":"ml"}
     ],
     "steps": [
       "Piletinu iseckajte i propržite dok ne dobije zlatnu boju.",
@@ -222,15 +222,15 @@
   {
     "name": "Burger sa domaćim sosom",
     "ingredients": [
-      {"name":"mlevene junetine","quantity":700,"unit":"g"},
+      {"name":"mlevena junetina","quantity":700,"unit":"g"},
       {"name":"burger zemičke","quantity":4,"unit":" "},
-      {"name":"sira","quantity":150,"unit":"g"},
-      {"name":"zelene salate","quantity":100,"unit":"g"},
-      {"name":"paradajza","quantity":2,"unit":" "},
-      {"name":"krastavčića","quantity":6,"unit":" "},
-      {"name":"majoneza","quantity":4,"unit":"kašike"},
-      {"name":"kečapa","quantity":2,"unit":"kašike"},
-      {"name":"senfa","quantity":1,"unit":"kašika"}
+      {"name":"sir","quantity":150,"unit":"g"},
+      {"name":"zelena salata","quantity":100,"unit":"g"},
+      {"name":"paradajz","quantity":2,"unit":" "},
+      {"name":"krastavčići","quantity":6,"unit":" "},
+      {"name":"majonez","quantity":4,"unit":"kašike"},
+      {"name":"kečap","quantity":2,"unit":"kašike"},
+      {"name":"senf","quantity":1,"unit":"kašika"}
     ],
     "steps": [
       "Oblikujte pljeskavice i začinite ih po želji.",
@@ -246,13 +246,13 @@
   {
     "name": "Curry piletina",
     "ingredients": [
-      {"name":"pilećeg filea","quantity":500,"unit":"g"},
+      {"name":"pileći file","quantity":500,"unit":"g"},
       {"name":"crni luk","quantity":1,"unit":" "},
-      {"name":"belog luka","quantity":3,"unit":"čena"},
-      {"name":"kokosovog mleka","quantity":400,"unit":"ml"},
-      {"name":"curry praha","quantity":2,"unit":"kašike"},
-      {"name":"đumbira","quantity":20,"unit":"g"},
-      {"name":"pirinča","quantity":250,"unit":"g"}
+      {"name":"beli luk","quantity":3,"unit":"čena"},
+      {"name":"kokosovo mleko","quantity":400,"unit":"ml"},
+      {"name":"curry prah","quantity":2,"unit":"kašike"},
+      {"name":"đumbir","quantity":20,"unit":"g"},
+      {"name":"pirinač","quantity":250,"unit":"g"}
     ],
     "steps": [
       "Skuvajte pirinač i ostavite sa strane.",
@@ -267,14 +267,14 @@
   {
     "name": "Čokoladna torta",
     "ingredients": [
-      {"name":"brašna","quantity":300,"unit":"g"},
-      {"name":"šećera","quantity":250,"unit":"g"},
-      {"name":"kakaa","quantity":70,"unit":"g"},
+      {"name":"brašno","quantity":300,"unit":"g"},
+      {"name":"šećer","quantity":250,"unit":"g"},
+      {"name":"kakao","quantity":70,"unit":"g"},
       {"name":"jaja","quantity":4,"unit":" "},
-      {"name":"mleka","quantity":250,"unit":"ml"},
+      {"name":"mleko","quantity":250,"unit":"ml"},
       {"name":"puter","quantity":150,"unit":"g"},
-      {"name":"čokolade","quantity":200,"unit":"g"},
-      {"name":"praška za pecivo","quantity":1,"unit":"kesica"}
+      {"name":"čokolada","quantity":200,"unit":"g"},
+      {"name":"prašak za pecivo","quantity":1,"unit":"kesica"}
     ],
     "steps": [
       "Umutite jaja i šećer dok ne postanu penasti.",
@@ -290,12 +290,12 @@
   {
     "name": "Pasta sa lososom",
     "ingredients": [
-      {"name":"testenine","quantity":400,"unit":"g"},
-      {"name":"dimljenog lososa","quantity":250,"unit":"g"},
-      {"name":"neutralne pavlake","quantity":250,"unit":"ml"},
-      {"name":"belog luka","quantity":2,"unit":"čena"},
+      {"name":"testenina","quantity":400,"unit":"g"},
+      {"name":"dimljeni losos","quantity":250,"unit":"g"},
+      {"name":"neutralna pavlaka","quantity":250,"unit":"ml"},
+      {"name":"beli luk","quantity":2,"unit":"čena"},
       {"name":"limun","quantity":1,"unit":" "},
-      {"name":"parmezana","quantity":70,"unit":"g"}
+      {"name":"parmezan","quantity":70,"unit":"g"}
     ],
     "steps": [
       "Dok se testenina kuva, na tiganju propržite beli luk.",
@@ -310,11 +310,11 @@
   {
     "name": "Mus od čokolade",
     "ingredients": [
-      {"name":"tamne čokolade","quantity":200,"unit":"g"},
-      {"name":"slatke pavlake","quantity":300,"unit":"ml"},
+      {"name":"tamna čokolada","quantity":200,"unit":"g"},
+      {"name":"slatka pavlaka","quantity":300,"unit":"ml"},
       {"name":"jaja","quantity":3,"unit":" "},
-      {"name":"šećera","quantity":50,"unit":"g"},
-      {"name":"vanile","quantity":1,"unit":"kesica"}
+      {"name":"šećer","quantity":50,"unit":"g"},
+      {"name":"vanila","quantity":1,"unit":"kesica"}
     ],
     "steps": [
       "Otopite čokoladu na pari.",
@@ -329,11 +329,11 @@
   {
     "name": "Pečeni krompir sa sirom",
     "ingredients": [
-      {"name":"krompira","quantity":800,"unit":"g"},
-      {"name":"kačkavalja","quantity":200,"unit":"g"},
-      {"name":"pavlake","quantity":200,"unit":"ml"},
-      {"name":"putera","quantity":50,"unit":"g"},
-      {"name":"belog luka","quantity":2,"unit":"čena"}
+      {"name":"krompir","quantity":800,"unit":"g"},
+      {"name":"kačkavalj","quantity":200,"unit":"g"},
+      {"name":"pavlaka","quantity":200,"unit":"ml"},
+      {"name":"puter","quantity":50,"unit":"g"},
+      {"name":"beli luk","quantity":2,"unit":"čena"}
     ],
     "steps": [
       "Oljuštite i isecite krompir na tanke kolutove.",
@@ -348,12 +348,12 @@
   {
     "name": "Piletina parmigiana",
     "ingredients": [
-      {"name":"pilećeg filea","quantity":600,"unit":"g"},
-      {"name":"prezli","quantity":200,"unit":"g"},
+      {"name":"pileći file","quantity":600,"unit":"g"},
+      {"name":"prezle","quantity":200,"unit":"g"},
       {"name":"jaja","quantity":2,"unit":" "},
-      {"name":"parmezana","quantity":100,"unit":"g"},
-      {"name":"mocarele","quantity":200,"unit":"g"},
-      {"name":"paradajz sosa","quantity":400,"unit":"ml"}
+      {"name":"parmezan","quantity":100,"unit":"g"},
+      {"name":"mocarela","quantity":200,"unit":"g"},
+      {"name":"paradajz sos","quantity":400,"unit":"ml"}
     ],
     "steps": [
       "Istucite filete i začinite ih.",
@@ -368,12 +368,12 @@
   {
     "name": "Tiramisu",
     "ingredients": [
-      {"name":"piškota","quantity":300,"unit":"g"},
-      {"name":"maskarpone sira","quantity":500,"unit":"g"},
+      {"name":"piškote","quantity":300,"unit":"g"},
+      {"name":"maskarpone sir","quantity":500,"unit":"g"},
       {"name":"jaja","quantity":4,"unit":" "},
-      {"name":"šećera","quantity":120,"unit":"g"},
-      {"name":"kafe","quantity":300,"unit":"ml"},
-      {"name":"kakaa","quantity":30,"unit":"g"}
+      {"name":"šećer","quantity":120,"unit":"g"},
+      {"name":"kafa","quantity":300,"unit":"ml"},
+      {"name":"kakao","quantity":30,"unit":"g"}
     ],
     "steps": [
       "Umutite žumanca sa šećerom.",
@@ -389,13 +389,13 @@
   {
     "name": "Bolognese pasta",
     "ingredients": [
-      {"name":"testenine","quantity":400,"unit":"g"},
-      {"name":"mlevenog mesa","quantity":500,"unit":"g"},
+      {"name":"testenina","quantity":400,"unit":"g"},
+      {"name":"mleveno meso","quantity":500,"unit":"g"},
       {"name":"crni luk","quantity":1,"unit":" "},
       {"name":"šargarepa","quantity":1,"unit":" "},
       {"name":"celer","quantity":1,"unit":" "},
-      {"name":"paradajz sosa","quantity":700,"unit":"ml"},
-      {"name":"crvenog vina","quantity":100,"unit":"ml"}
+      {"name":"paradajz sos","quantity":700,"unit":"ml"},
+      {"name":"crveno vino","quantity":100,"unit":"ml"}
     ],
     "steps": [
       "Propržite luk, šargarepu i celer.",
@@ -410,11 +410,11 @@
   {
     "name": "Mafini sa borovnicama",
     "ingredients": [
-      {"name":"brašna","quantity":250,"unit":"g"},
-      {"name":"šećera","quantity":150,"unit":"g"},
+      {"name":"brašno","quantity":250,"unit":"g"},
+      {"name":"šećer","quantity":150,"unit":"g"},
       {"name":"jaja","quantity":2,"unit":" "},
-      {"name":"mleka","quantity":150,"unit":"ml"},
-      {"name":"putera","quantity":100,"unit":"g"},
+      {"name":"mleko","quantity":150,"unit":"ml"},
+      {"name":"puter","quantity":100,"unit":"g"},
       {"name":"borovnica","quantity":150,"unit":"g"}
     ],
     "steps": [
@@ -430,12 +430,12 @@
   {
     "name": "Takosi sa junetinom",
     "ingredients": [
-      {"name":"takosa","quantity":8,"unit":" "},
-      {"name":"mlevene junetine","quantity":500,"unit":"g"},
+      {"name":"takos","quantity":8,"unit":" "},
+      {"name":"mlevena junetina","quantity":500,"unit":"g"},
       {"name":"crni luk","quantity":1,"unit":" "},
-      {"name":"paradajza","quantity":2,"unit":" "},
-      {"name":"zelene salate","quantity":100,"unit":"g"},
-      {"name":"sira","quantity":150,"unit":"g"}
+      {"name":"paradajz","quantity":2,"unit":" "},
+      {"name":"zelena salata","quantity":100,"unit":"g"},
+      {"name":"sir","quantity":150,"unit":"g"}
     ],
     "steps": [
       "Propržite luk i meso i začinite po želji.",
@@ -448,12 +448,12 @@
   {
     "name": "Rižoto sa piletinom i povrćem",
     "ingredients": [
-      {"name":"pirinča","quantity":300,"unit":"g"},
-      {"name":"pilećeg filea","quantity":400,"unit":"g"},
+      {"name":"pirinač","quantity":300,"unit":"g"},
+      {"name":"pileći file","quantity":400,"unit":"g"},
       {"name":"šargarepa","quantity":1,"unit":" "},
-      {"name":"graška","quantity":100,"unit":"g"},
+      {"name":"grašak","quantity":100,"unit":"g"},
       {"name":"paprika","quantity":1,"unit":" "},
-      {"name":"bujona","quantity":900,"unit":"ml"}
+      {"name":"bujon","quantity":900,"unit":"ml"}
     ],
     "steps": [
       "Propržite piletinu i povrće i u to dodajte pirinač.",
@@ -466,11 +466,11 @@
   {
     "name": "Banoffee pita",
     "ingredients": [
-      {"name":"plazme","quantity":300,"unit":"g"},
-      {"name":"putera","quantity":120,"unit":"g"},
-      {"name":"karamel preliva","quantity":250,"unit":"g"},
+      {"name":"plazma","quantity":300,"unit":"g"},
+      {"name":"puter","quantity":120,"unit":"g"},
+      {"name":"karamel preliv","quantity":250,"unit":"g"},
       {"name":"banane","quantity":3,"unit":" "},
-      {"name":"slatke pavlake","quantity":300,"unit":"ml"}
+      {"name":"slatka pavlaka","quantity":300,"unit":"ml"}
     ],
     "steps": [
       "Napravite koru od plazme i putera i ostavite da se ohladi 30 minuta, a zatim je prelijte karamelom.",
@@ -482,11 +482,11 @@
   {
     "name": "Zapečene makarone sa sirom",
     "ingredients": [
-      {"name":"makarona","quantity":400,"unit":"g"},
-      {"name":"sira","quantity":250,"unit":"g"},
-      {"name":"mleka","quantity":500,"unit":"ml"},
-      {"name":"putera","quantity":50,"unit":"g"},
-      {"name":"brašna","quantity":2,"unit":"kašike"}
+      {"name":"makarone","quantity":400,"unit":"g"},
+      {"name":"sir","quantity":250,"unit":"g"},
+      {"name":"mleko","quantity":500,"unit":"ml"},
+      {"name":"puter","quantity":50,"unit":"g"},
+      {"name":"brašno","quantity":2,"unit":"kašike"}
     ],
     "steps": [
       "Skuvajte makarone i napravite bešamel od putera i brašna i postepeno dodajte mleko uz konstantno mešanje.",
@@ -501,9 +501,9 @@
     "ingredients": [
       {"name":"bundeve","quantity":700,"unit":"g"},
       {"name":"crni luk","quantity":1,"unit":" "},
-      {"name":"belog luka","quantity":2,"unit":"čena"},
-      {"name":"neutralne pavlake","quantity":150,"unit":"ml"},
-      {"name":"bujona","quantity":700,"unit":"ml"}
+      {"name":"beli luk","quantity":2,"unit":"čena"},
+      {"name":"neutralna pavlaka","quantity":150,"unit":"ml"},
+      {"name":"bujon","quantity":700,"unit":"ml"}
     ],
     "steps": [
       "Propržite crni i beli luk na malo maslinovog ulja.",
@@ -516,11 +516,11 @@
   {
     "name": "Carbonara pasta",
     "ingredients": [
-      {"name":"testenine","quantity":400,"unit":"g"},
-      {"name":"slanine","quantity":200,"unit":"g"},
+      {"name":"testenina","quantity":400,"unit":"g"},
+      {"name":"slanina","quantity":200,"unit":"g"},
       {"name":"jaja","quantity":4,"unit":" "},
-      {"name":"parmezana","quantity":100,"unit":"g"},
-      {"name":"belog luka","quantity":2,"unit":"čena"}
+      {"name":"parmezan","quantity":100,"unit":"g"},
+      {"name":"beli luk","quantity":2,"unit":"čena"}
     ],
     "steps": [
       "Skuvati testeninu prema upustvu sa pakovanja.",
@@ -533,10 +533,10 @@
   {
     "name": "Pesto pasta",
     "ingredients": [
-      {"name":"testenine","quantity":400,"unit":"g"},
-      {"name":"pesto sosa","quantity":150,"unit":"g"},
-      {"name":"parmezana","quantity":80,"unit":"g"},
-      {"name":"maslinovog ulja","quantity":2,"unit":"kašike"}
+      {"name":"testenina","quantity":400,"unit":"g"},
+      {"name":"pesto sos","quantity":150,"unit":"g"},
+      {"name":"parmezan","quantity":80,"unit":"g"},
+      {"name":"maslinovo ulje","quantity":2,"unit":"kašike"}
     ],
     "steps": [
       "Skuvanu testeninu dobro procediti i dodati pesto sos, maslinovo ulje i parmezan, dobro promešati i servirati."
@@ -546,11 +546,11 @@
   {
     "name": "Rižoto sa pečurkama",
     "ingredients": [
-      {"name":"pirinča","quantity":300,"unit":"g"},
-      {"name":"šampinjona","quantity":250,"unit":"g"},
+      {"name":"pirinač","quantity":300,"unit":"g"},
+      {"name":"šampinjoni","quantity":250,"unit":"g"},
       {"name":"crni luk","quantity":1,"unit":" "},
-      {"name":"bujona","quantity":700,"unit":"ml"},
-      {"name":"parmezana","quantity":80,"unit":"g"}
+      {"name":"bujon","quantity":700,"unit":"ml"},
+      {"name":"parmezan","quantity":80,"unit":"g"}
     ],
     "steps": [
       "Prodinstati luk i pečurke na malo maslinovog ulja.",
@@ -563,10 +563,10 @@
   {
     "name": "Piletina u pavlaci",
     "ingredients": [
-      {"name":"pilećeg filea","quantity":500,"unit":"g"},
-      {"name":"neutralne pavlake","quantity":200,"unit":"ml"},
-      {"name":"belog luka","quantity":3,"unit":"čena"},
-      {"name":"ulja","quantity":2,"unit":"kašike"}
+      {"name":"pileći file","quantity":500,"unit":"g"},
+      {"name":"neutralna pavlaka","quantity":200,"unit":"ml"},
+      {"name":"beli luk","quantity":3,"unit":"čena"},
+      {"name":"ulje","quantity":2,"unit":"kašike"}
     ],
     "steps": [
       "Iseći i propržiti piletinu na ulju dok ne dobije zlatnu boju,a zatim dodati beli luk.",
@@ -577,10 +577,10 @@
   {
     "name": "Piletina sa povrćem",
     "ingredients": [
-      {"name":"pilećeg filea","quantity":500,"unit":"g"},
-      {"name":"brokolija","quantity":200,"unit":"g"},
-      {"name":"šargarepe","quantity":2,"unit":" "},
-      {"name":"soja sosa","quantity":3,"unit":"kašike"}
+      {"name":"pileći file","quantity":500,"unit":"g"},
+      {"name":"brokoli","quantity":200,"unit":"g"},
+      {"name":"šargarepa","quantity":2,"unit":" "},
+      {"name":"soja sos","quantity":3,"unit":"kašike"}
     ],
     "steps": [
       "Ispržiti piletinu na malo maslinovog ulja dok ne dobije zlatnu boju.",
@@ -593,9 +593,9 @@
     "name": "Tortilje sa piletinom",
     "ingredients": [
       {"name":"tortilje","quantity":4,"unit":" "},
-      {"name":"pilećeg filea","quantity":400,"unit":"g"},
-      {"name":"sira","quantity":150,"unit":"g"},
-      {"name":"zelene salate","quantity":100,"unit":"g"}
+      {"name":"pileći file","quantity":400,"unit":"g"},
+      {"name":"sir","quantity":150,"unit":"g"},
+      {"name":"zelena salata","quantity":100,"unit":"g"}
     ],
     "steps": [
       "Začinjenu piletinu ispržiti na malo maslinovog ulja dok ne dobije zlatnu boju.",
@@ -606,9 +606,9 @@
   {
     "name": "Ovsena kaša",
     "ingredients": [
-      {"name":"ovsenih pahuljica","quantity":80,"unit":"g"},
-      {"name":"mleka","quantity":250,"unit":"ml"},
-      {"name":"meda","quantity":1,"unit":"kašika"},
+      {"name":"ovsene pahuljice","quantity":80,"unit":"g"},
+      {"name":"mleko","quantity":250,"unit":"ml"},
+      {"name":"med","quantity":1,"unit":"kašika"},
       {"name":"banane","quantity":1,"unit":" "}
     ],
     "steps": [
@@ -621,11 +621,11 @@
   {
     "name": "Tost sa avokadom",
     "ingredients": [
-      {"name":"tost hleba","quantity":2,"unit":"kriške"},
+      {"name":"tost hleb","quantity":2,"unit":"kriške"},
       {"name":"avokado","quantity":1,"unit":" "},
       {"name":"limun","quantity":1,"unit":" "},
       {"name":"jaja","quantity":2,"unit":" "},
-      {"name":"neutralne pavlake","quantity":20,"unit":"ml"}
+      {"name":"neutralna pavlaka","quantity":20,"unit":"ml"}
     ],
     "steps": [
       "Na tostirani hleb dodati prvo izgnječen avokado sa malo maslinovog ulja, limuna, soli i belog luka u prahu kao bazu.",
@@ -637,11 +637,11 @@
   {
     "name": "Čokoladni mafini",
     "ingredients": [
-      {"name":"brašna","quantity":250,"unit":"g"},
-      {"name":"šećera","quantity":150,"unit":"g"},
-      {"name":"kakaa","quantity":50,"unit":"g"},
+      {"name":"brašno","quantity":250,"unit":"g"},
+      {"name":"šećer","quantity":150,"unit":"g"},
+      {"name":"kakao","quantity":50,"unit":"g"},
       {"name":"jaja","quantity":2,"unit":" "},
-      {"name":"crne čokolade","quantity":150,"unit":" "}
+      {"name":"crna čokolada","quantity":150,"unit":" "}
     ],
     "steps": [
       "Pomešati odvojeno sve suve, a zatim i sve mokre sastojke i na kraju sjediniti i dodati većinu seckane čokolade.",
@@ -653,10 +653,10 @@
   {
     "name": "Brownie",
     "ingredients": [
-      {"name":"crne čokolade","quantity":200,"unit":"g"},
-      {"name":"putera","quantity":150,"unit":"g"},
+      {"name":"crne čokolada","quantity":200,"unit":"g"},
+      {"name":"puter","quantity":150,"unit":"g"},
       {"name":"jaja","quantity":3,"unit":" "},
-      {"name":"brašna","quantity":100,"unit":"g"}
+      {"name":"brašno","quantity":100,"unit":"g"}
     ],
     "steps": [
       "Otopiti čokoladu i puter na srednje jakoj vatri kako čokolada ne bi zagorela.",
@@ -668,11 +668,11 @@
   {
     "name": "Cezar salata",
     "ingredients": [
-      {"name":"pilećeg filea","quantity":300,"unit":"g"},
-      {"name":"zelene salate","quantity":200,"unit":"g"},
-      {"name":"hleba","quantity":100,"unit":"g"},
-      {"name":"parmezana","quantity":50,"unit":"g"},
-      {"name":"pančete","quantity":50,"unit":"g"}
+      {"name":"pileći file","quantity":300,"unit":"g"},
+      {"name":"zelena salata","quantity":200,"unit":"g"},
+      {"name":"hleb","quantity":100,"unit":"g"},
+      {"name":"parmezan","quantity":50,"unit":"g"},
+      {"name":"pančeta","quantity":50,"unit":"g"}
     ],
     "steps": [
       "Ispeći piletinu i pančetu na malo maslinovog ulja dok ne dobije zlatu boju, a zatim je iseckati na kockice.",
