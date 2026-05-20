@@ -1,6 +1,7 @@
 package ui
 
 import (
+	"2026_Knjiga-recepata/models"
 	"image/color"
 
 	"fyne.io/fyne/v2"
@@ -11,13 +12,13 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
-func placeholderScreen(w fyne.Window, title string) {
+func placeholderScreen(w fyne.Window, title string, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	back := widget.NewButtonWithIcon(
 		"",
 		theme.NavigateBackIcon(),
 		func() {
-			ShowHome(w)
+			ShowHome(w, recipes, ii)
 		},
 	)
 
@@ -59,23 +60,22 @@ func makeCard(
 	)
 }
 
-func ShowHome(w fyne.Window) {
+func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	search := widget.NewEntry()
 	search.SetPlaceHolder("Pretrazi")
 
 	search.OnSubmitted = func(text string) {
-		allRecepies := loadRecipes()
-		recepies := SearchRecipes(text, allRecepies)
+		rec := SearchRecipes(text, recipes)
 
 		var buttons []fyne.CanvasObject
 
 		// Pravimo dugmice za sve pronadjene recepte
-		for _, r := range recepies {
-			recipe := r
+		for _, r := range rec {
+			rec := r
 
-			btn := widget.NewButton(recipe.Name, func() {
-				ShowRecipeDetail(w, recipe)
+			btn := widget.NewButton(rec.Name, func() {
+				ShowRecipeDetail(w, rec, recipes, ii)
 			})
 
 			buttons = append(buttons, btn)
@@ -89,7 +89,7 @@ func ShowHome(w fyne.Window) {
 		// Pravimo novi ekran
 		content := container.NewVBox(
 			makeBack(w, func() {
-				ShowHome(w)
+				ShowHome(w, recipes, ii)
 			}),
 			// buttons... raspakuje niz manje vise
 			container.NewVBox(buttons...),
@@ -105,7 +105,7 @@ func ShowHome(w fyne.Window) {
 		"Svi recepti",
 		28,
 		func() {
-			ShowAllRecipes(w)
+			ShowAllRecipes(w, recipes, ii)
 		},
 	)
 
@@ -116,6 +116,8 @@ func ShowHome(w fyne.Window) {
 			placeholderScreen(
 				w,
 				"Namirnice",
+				recipes,
+				ii,
 			)
 		},
 	)
@@ -134,6 +136,8 @@ func ShowHome(w fyne.Window) {
 		placeholderScreen(
 			w,
 			"Dodavanje recepta",
+			recipes,
+			ii,
 		)
 	})
 
