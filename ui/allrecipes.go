@@ -56,14 +56,14 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe) {
 
 	for _, ing := range recipe.Ingredients {
 		text :=
-			strconv.FormatFloat(
-				ing.Quantity,
-				'f',
-				0,
-				64,
-			) +
-				" " + ing.Unit +
-				" " + ing.Name
+			ing.Name + ": " +
+				strconv.FormatFloat(
+					ing.Quantity,
+					'f',
+					0,
+					64,
+				) +
+				" " + ing.Unit
 
 		ingredients = append(
 			ingredients,
