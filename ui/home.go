@@ -74,13 +74,10 @@ func ShowHome(w fyne.Window) {
 	search.Resize(fyne.NewSize(540, 60))
 
 	topCard := makeCard(
-		"Izlista sve recepte",
+		"Svi recepti",
 		28,
 		func() {
-			placeholderScreen(
-				w,
-				"Recepti",
-			)
+			ShowAllRecipes(w)
 		},
 	)
 
@@ -112,7 +109,7 @@ func ShowHome(w fyne.Window) {
 		)
 	})
 
-	addBtn.Resize(fyne.NewSize(370, 370))
+	addBtn.Resize(fyne.NewSize(170, 170))
 
 	content := container.NewVBox(
 		search,
