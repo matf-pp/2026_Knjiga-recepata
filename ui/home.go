@@ -65,10 +65,38 @@ func ShowHome(w fyne.Window) {
 	search.SetPlaceHolder("Pretrazi")
 
 	search.OnSubmitted = func(text string) {
-		placeholderScreen(
-			w,
-			"Rezultati pretrage za: "+text,
+		allRecepies := loadRecipes()
+		recepies := SearchRecipes(text, allRecepies)
+
+		var buttons []fyne.CanvasObject
+
+		// Pravimo dugmice za sve pronadjene recepte
+		for _, r := range recepies {
+			recipe := r
+
+			btn := widget.NewButton(recipe.Name, func() {
+				ShowRecipeDetail(w, recipe)
+			})
+
+			buttons = append(buttons, btn)
+		}
+
+		// Nismo pronasli ni jedan recept, pa ispisujemo poruku
+		if len(buttons) == 0 {
+			buttons = append(buttons, widget.NewLabel("Nema rezultata"))
+		}
+
+		// Pravimo novi ekran
+		content := container.NewVBox(
+			makeBack(w, func() {
+				ShowHome(w)
+			}),
+			// buttons... raspakuje niz manje vise
+			container.NewVBox(buttons...),
 		)
+
+		// Menjamo ceo UI
+		w.SetContent(container.NewScroll(content))
 	}
 
 	search.Resize(fyne.NewSize(540, 60))
