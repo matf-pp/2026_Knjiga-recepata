@@ -1,6 +1,7 @@
 package ui
 
 import (
+	"2026_Knjiga-recepata/models"
 	"image/color"
 
 	"fyne.io/fyne/v2"
@@ -11,13 +12,13 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
-func placeholderScreen(w fyne.Window, title string) {
+func placeholderScreen(w fyne.Window, title string, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	back := widget.NewButtonWithIcon(
 		"",
 		theme.NavigateBackIcon(),
 		func() {
-			ShowHome(w)
+			ShowHome(w, recipes, ii)
 		},
 	)
 
@@ -59,16 +60,43 @@ func makeCard(
 	)
 }
 
-func ShowHome(w fyne.Window) {
+func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	search := widget.NewEntry()
 	search.SetPlaceHolder("Pretrazi")
 
 	search.OnSubmitted = func(text string) {
-		placeholderScreen(
-			w,
-			"Rezultati pretrage za: "+text,
+		rec := SearchRecipes(text, recipes)
+
+		var buttons []fyne.CanvasObject
+
+		// Pravimo dugmice za sve pronadjene recepte
+		for _, r := range rec {
+			rec := r
+
+			btn := widget.NewButton(rec.Name, func() {
+				ShowRecipeDetail(w, rec, recipes, ii)
+			})
+
+			buttons = append(buttons, btn)
+		}
+
+		// Nismo pronasli ni jedan recept, pa ispisujemo poruku
+		if len(buttons) == 0 {
+			buttons = append(buttons, widget.NewLabel("Nema rezultata"))
+		}
+
+		// Pravimo novi ekran
+		content := container.NewVBox(
+			makeBack(w, func() {
+				ShowHome(w, recipes, ii)
+			}),
+			// buttons... raspakuje niz manje vise
+			container.NewVBox(buttons...),
 		)
+
+		// Menjamo ceo UI
+		w.SetContent(container.NewScroll(content))
 	}
 
 	search.Resize(fyne.NewSize(540, 60))
@@ -77,7 +105,7 @@ func ShowHome(w fyne.Window) {
 		"Svi recepti",
 		28,
 		func() {
-			ShowAllRecipes(w)
+			ShowAllRecipes(w, recipes, ii)
 		},
 	)
 
@@ -85,9 +113,10 @@ func ShowHome(w fyne.Window) {
 		"Biranje namirnica",
 		18,
 		func() {
-			placeholderScreen(
+			ShowIngredientSearch(
 				w,
-				"Namirnice",
+				recipes,
+				ii,
 			)
 		},
 	)
@@ -106,6 +135,8 @@ func ShowHome(w fyne.Window) {
 		placeholderScreen(
 			w,
 			"Dodavanje recepta",
+			recipes,
+			ii,
 		)
 	})
 

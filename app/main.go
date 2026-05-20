@@ -1,6 +1,7 @@
 package main
 
 import (
+	"2026_Knjiga-recepata/models"
 	"2026_Knjiga-recepata/ui"
 
 	"fyne.io/fyne/v2"
@@ -13,7 +14,14 @@ func main() {
 	w := a.NewWindow("Knjiga recepata")
 	w.Resize(fyne.NewSize(600, 800))
 
-	ui.ShowHome(w)
+	recipes := ui.LoadRecipes()
+
+	ii := models.NewInvertedIndex()
+	for _, r := range recipes {
+		ii.AddRecipe(r)
+	}
+
+	ui.ShowHome(w, recipes, ii)
 
 	w.ShowAndRun()
 }

@@ -1,5 +1,7 @@
 package models
 
+import "sort"
+
 // Struktura podataka za brzu pretragu, umesto da za svaki recept
 // gledamo namirnice, mi za svaku namernicu znamo koji je svi recepti koriste
 type InvertedIndex struct {
@@ -27,6 +29,19 @@ func (ii *InvertedIndex) AddRecipe(r *Recipe) {
 		// Dodajemo recept u skup za datu namirnicu
 		ii.index[ingredientName].Add(r)
 	}
+}
+
+// Vracamo sve namernice koje imamo
+func (ii *InvertedIndex) IngredientNames() []string {
+	var names []string
+
+	for name := range ii.index {
+		names = append(names, name)
+	}
+
+	sort.Strings(names)
+
+	return names
 }
 
 // Filtriramo vec postojece inverted index

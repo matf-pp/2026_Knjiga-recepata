@@ -36,3 +36,14 @@ func (s *Set) Contains(value *Recipe) bool {
 func (s *Set) Size() int {
 	return len(s.elements)
 }
+
+// Vraca sve elemente kao niz elemenata
+func (s *Set) List() []*Recipe {
+	var res []*Recipe
+
+	for r := range s.elements {
+		res = append(res, r)
+	}
+
+	return res
+}

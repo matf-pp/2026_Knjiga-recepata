@@ -15,7 +15,7 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
-func loadRecipes() []*models.Recipe {
+func LoadRecipes() []*models.Recipe {
 	data, err := os.ReadFile("data/recipes.json")
 	if err != nil {
 		return nil
@@ -44,7 +44,7 @@ func makeBack(w fyne.Window, click func()) fyne.CanvasObject {
 	return container.NewHBox(back)
 }
 
-func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe) {
+func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	title := widget.NewLabel(recipe.Name)
 
@@ -56,14 +56,14 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe) {
 
 	for _, ing := range recipe.Ingredients {
 		text :=
-			strconv.FormatFloat(
-				ing.Quantity,
-				'f',
-				0,
-				64,
-			) +
-				" " + ing.Unit +
-				" " + ing.Name
+			ing.Name + ": " +
+				strconv.FormatFloat(
+					ing.Quantity,
+					'f',
+					0,
+					64,
+				) +
+				" " + ing.Unit
 
 		ingredients = append(
 			ingredients,
@@ -84,7 +84,7 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe) {
 
 	content := container.NewVBox(
 		makeBack(w, func() {
-			ShowAllRecipes(w)
+			ShowAllRecipes(w, recipes, ii)
 		}),
 		title,
 
@@ -100,9 +100,7 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe) {
 	w.SetContent(container.NewScroll(content))
 }
 
-func ShowAllRecipes(w fyne.Window) {
-
-	recipes := loadRecipes()
+func ShowAllRecipes(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	var buttons []fyne.CanvasObject
 
@@ -113,7 +111,7 @@ func ShowAllRecipes(w fyne.Window) {
 		btn := widget.NewButton(
 			r.Name,
 			func() {
-				ShowRecipeDetail(w, r)
+				ShowRecipeDetail(w, r, recipes, ii)
 			},
 		)
 
@@ -129,7 +127,7 @@ func ShowAllRecipes(w fyne.Window) {
 
 	content := container.NewVBox(
 		makeBack(w, func() {
-			ShowHome(w)
+			ShowHome(w, recipes, ii)
 		}),
 		container.NewVBox(buttons...),
 	)
