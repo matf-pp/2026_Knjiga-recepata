@@ -2,6 +2,7 @@ package ui
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 	"sort"
 	"strconv"
@@ -75,6 +76,8 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 		title,
 
 		container.NewHBox(img),
+
+		widget.NewLabel(fmt.Sprintf("Za %d osoba", recipe.Servings)),
 
 		widget.NewLabel("Sastojci"),
 		container.NewVBox(ingredients...),

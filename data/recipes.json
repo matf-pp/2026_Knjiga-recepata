@@ -24,7 +24,8 @@
       "U posudu za pečenje prvo staviti red mea, preko toga staviti red kora za lazanje, zatim red belog sosa i sir. Ponoviti postupak dok imate sastojaka i na kraju dodajte parmezan.",
       "Pokriti aluminijumskom folijom i peći oko 1 sat na 180°C. Nakon sat vremena skloniti foliju i zapeći još 10 minuta."
     ],
-    "image": "lazanje.jpg"
+    "image": "lazanje.jpg",
+    "servings": 4
   },
   {
     "name": "Musaka",
@@ -49,13 +50,13 @@
       "Prekrijte aluminijumskom folijom i pecite 40 minuta na 200°C.",
       "Nakon 40 minuta sklonite foliju, prelijte umućenim jajima i mlekom i ostavite da se peče jos 10-15min."
     ],
-    "image": "musaka.jpg"
+    "image": "musaka.jpg",
+    "servings": 6
   },
   {
     "name": "Kiflice",
     "ingredients": [
-      {"name": "glatkog brašna","quantity": 1,"unit": "kg"
-      },
+      {"name": "Glatko brašno","quantity": 1,"unit": "kg"},
       {"name": "Mleko","quantity": 300,"unit": "ml"},
       {"name": "Voda","quantity": 200,"unit": "ml"},
       {"name": "Jogurt","quantity": 100,"unit": "ml"},
@@ -74,7 +75,8 @@
       "Premažite ih umućenim jajetom i ukoliko želite pospite ih susamom ili kimom.",
       "Stavite ih na pečenje na 200°C dok ne dobiju zlatnu boju."
     ],
-    "image": "kiflice.jpg"
+    "image": "kiflice.jpg",
+    "servings": 8
   },
   {
     "name": "Mini pizze",
@@ -96,7 +98,8 @@
       "Podeliti testo na 16 jednakih delova i oblikovati male krugove. ",
       "Na svaki krug staviti paradajz sos, sir i šunku. Posuti origanom po želji i peći okob 15 minuta na 200°C."
     ],
-    "image": "mini_pizze.jpg"
+    "image": "mini_pizze.jpg",
+    "servings": 6
   },
   {
     "name": "Cimet rolnice",
@@ -120,7 +123,8 @@
       "Zarolati testo, iseći i ređati rolnice u pleh. Peči na 180°C dok ne porumene. ",
       "Od ostatka smeđeg šećera, krem sira napraviti fil i premazati svaku rolnicu nakon što se prohlade."
     ],
-    "image": "cimet_rolnice.jpg"
+    "image": "cimet_rolnice.jpg",
+    "servings": 6
   },
   {
     "name": "Pasta Alfredo sa piletinom",
@@ -144,7 +148,8 @@
       "Vratite piletinu u sos i dodajte testeninu. Ako je potrebno, dodajte malo vode od kuvanja.",
       "Pospite svežim peršunom i služite odmah."
     ],
-    "image": "alfredo_piletina.jpg"
+    "image": "alfredo_piletina.jpg",
+    "servings": 4
   },
   {
     "name": "Rižoto sa gamborima",
@@ -168,7 +173,8 @@
       "Dodajte rendani parmezan i još malo putera.",
       "Ostavite minut da odmori i servirajte."
     ],
-    "image": "rizoto_gambori.jpg"
+    "image": "rizoto_gambori.jpg",
+    "servings": 4
   },
   {
     "name": "Punjene paprike",
@@ -192,7 +198,8 @@
       "Prelijte paradajz sosom i dolijte vode da ogrezne.",
       "Kuvajte na laganoj vatri oko 60 minuta."
     ],
-    "image": "punjene_paprike.jpg"
+    "image": "punjene_paprike.jpg",
+    "servings": 4
   },
   {
     "name": "Lazanje sa piletinom i spanaćem",
@@ -217,7 +224,8 @@
       "Poslednji sloj prekrijte bešamelom i sirom.",
       "Pecite 45 minuta na 180°C."
     ],
-    "image": "lazanja_piletina_spanac.jpg"
+    "image": "lazanja_piletina_spanac.jpg",
+    "servings": 6
   },
   {
     "name": "Burger sa domaćim sosom",
@@ -241,7 +249,8 @@
       "Dodajte salatu, meso, paradajz i krastavce.",
       "Poklopite i služite toplo."
     ],
-    "image": "burgeri.jpg"
+    "image": "burgeri.jpg",
+    "servings": 4
   },
   {
     "name": "Curry piletina",
@@ -262,7 +271,8 @@
       "Sipajte kokosovo mleko i kuvajte 20 minuta.",
       "Servirajte uz kuvani pirinač."
     ],
-    "image": "piletina_curry.jpg"
+    "image": "piletina_curry.jpg",
+    "servings": 4
   },
   {
     "name": "Čokoladna torta",
@@ -285,7 +295,8 @@
       "Prelijte ohlađenu tortu glazurom.",
       "Ostavite da se stegne pre sečenja."
     ],
-    "image": "cokoladna_torta.jpg"
+    "image": "cokoladna_torta.jpg",
+    "servings": 10
   },
   {
     "name": "Pasta sa lososom",
@@ -305,7 +316,8 @@
       "Dodajte testeninu i parmezan.",
       "Promešajte i servirajte."
     ],
-    "image": "pasta_losos.jpg"
+    "image": "pasta_losos.jpg",
+    "servings": 4
   },
   {
     "name": "Mus od čokolade",
@@ -324,7 +336,8 @@
       "Lagano sjedinite sve sastojke.",
       "Sipajte u čaše i hladite 4 sata."
     ],
-    "image": "mus_cokolada.jpg"
+    "image": "mus_cokolada.jpg",
+    "servings": 6
   },
   {
     "name": "Pečeni krompir sa sirom",
@@ -343,7 +356,8 @@
       "Dodajte puter i beli luk.",
       "Pecite 50 minuta na 200°C."
     ],
-    "image": "peceni_krompir_sir.jpg"
+    "image": "peceni_krompir_sir.jpg",
+    "servings": 6
   },
   {
     "name": "Piletina parmigiana",
@@ -362,7 +376,8 @@
       "Prebacite u pleh, dodajte sos i mocarelu.",
       "Zapecite 20 minuta na 200°C."
     ],
-    "image": "piletina_parmigiana.jpg"
+    "image": "piletina_parmigiana.jpg",
+    "servings": 5
   },
 
   {
@@ -383,7 +398,8 @@
       "Ređajte red piškota pa fil i ponavljajte postupak dok imate smese.",
       "Pospite kakaom i hladite preko noći."
     ],
-    "image": "tiramisu.jpg"
+    "image": "tiramisu.jpg",
+    "servings": 8
   },
 
   {
@@ -404,7 +420,8 @@
       "Dodajte paradajz sos i kuvajte sat vremena.",
       "Skuvajte testeninu i sjedinite."
     ],
-    "image": "bolognese.jpg"
+    "image": "bolognese.jpg",
+    "servings": 5
   },
 
   {
@@ -424,7 +441,8 @@
       "Sipajte u kalupe.",
       "Pecite 25 minuta na 180°C."
     ],
-    "image": "mafini_borovnice.jpg"
+    "image": "mafini_borovnice.jpg",
+    "servings": 6
   },
 
   {
@@ -442,7 +460,8 @@
       "Kada meso sklonite sa ringle stavite takose da se proprže.",
       "Punite ih mesom, salatom, paradajzom i sirom."
     ],
-    "image": "takosi.jpg"
+    "image": "takosi.jpg",
+    "servings": 4
   },
 
   {
@@ -460,7 +479,8 @@
       "Postepeno dodajte bujon uz mešanje.",
       "Kuvajte dok pirinač ne omekša."
     ],
-    "image": "rizoto_piletina.jpg"
+    "image": "rizoto_piletina.jpg",
+    "servings": 4
   },
 
   {
@@ -476,7 +496,8 @@
       "Napravite koru od plazme i putera i ostavite da se ohladi 30 minuta, a zatim je prelijte karamelom.",
       "Dodajte sečene banane, a preko toga umućenu pavlaku i ostavite na hlađenje par sati."
     ],
-    "image": "banoffee.jpg"
+    "image": "banoffee.jpg",
+    "servings": 8
   },
 
   {
@@ -493,7 +514,8 @@
       "Nakon što ste dobili smesu bez grumuljica dodajte sir i mešajte dok se ne istopi.",
       "Pomešajte sa makaronama i pecite 20 minuta na 180°C."
     ],
-    "image": "makarone_sir.jpg"
+    "image": "makarone_sir.jpg",
+    "servings": 6
   },
 
   {
@@ -511,7 +533,8 @@
       "Kuvajte dok ne omekša, a zatim štapnim mikserom sve izblendajte.",
       "Dodajte pavlaku i kratko prokuvajte dok se sve ne sjedini."
     ],
-    "image": "supa_bundeva.jpg"
+    "image": "supa_bundeva.jpg",
+    "servings": 5
   },
   {
     "name": "Carbonara pasta",
@@ -528,7 +551,8 @@
       "Umutiti jaja i parmezan i dodati u slaninu i beli luk.",
       "Pomešati vrelu testeninu sa slaninom i jajima."
     ],
-    "image": "carbonara.jpg"
+    "image": "carbonara.jpg",
+    "servings": 4
   },
   {
     "name": "Pesto pasta",
@@ -541,7 +565,8 @@
     "steps": [
       "Skuvanu testeninu dobro procediti i dodati pesto sos, maslinovo ulje i parmezan, dobro promešati i servirati."
     ],
-    "image": "pesto_pasta.jpg"
+    "image": "pesto_pasta.jpg",
+    "servings": 4
   },
   {
     "name": "Rižoto sa pečurkama",
@@ -558,7 +583,8 @@
       "Kuvati uz mešanje.",
       "Dodati parmezan i spremno je za jelo."
     ],
-    "image": "rizoto_pecurke.jpg"
+    "image": "rizoto_pecurke.jpg",
+    "servings": 4
   },
   {
     "name": "Piletina u pavlaci",
@@ -572,7 +598,8 @@
       "Iseći i propržiti piletinu na ulju dok ne dobije zlatnu boju,a zatim dodati beli luk.",
       "Dodati neutralnu pavlaku i kuvati 10 minuta na srednje jakoj vatri kako ne bi zagorelo i začiniti po ukusu."
     ],
-    "image": "piletina_pavlaka.jpg"
+    "image": "piletina_pavlaka.jpg",
+    "servings": 4
   },
   {
     "name": "Piletina sa povrćem",
@@ -587,7 +614,8 @@
       "Dodati željeno povrće, a zatim i soja sos.",
       "Dinstati 15 minuta na srednje jakoj vatri dok se povrće ne skuva."
     ],
-    "image": "piletina_povrce.jpg"
+    "image": "piletina_povrce.jpg",
+    "servings": 4
   },
   {
     "name": "Tortilje sa piletinom",
@@ -601,7 +629,8 @@
       "Začinjenu piletinu ispržiti na malo maslinovog ulja dok ne dobije zlatnu boju.",
       "Napuniti tortilje željenim dodacima, a zatim ih vratiti na tiganj dok tortilje ne porumene."
     ],
-    "image": "tortilje.jpg"
+    "image": "tortilje.jpg",
+    "servings": 4
   },
   {
     "name": "Ovsena kaša",
@@ -616,7 +645,8 @@
       "Dodati med i bananu i bilo koje drugo sezonsko, ili voće po želji.",
       "Dodati i orašaste plodove po želji ili listiće badema, ili suvo grožđe."
     ],
-    "image": "ovsena_kasa.jpg"
+    "image": "ovsena_kasa.jpg",
+    "servings": 1
   },
   {
     "name": "Tost sa avokadom",
@@ -632,7 +662,8 @@
       "Na avokado dodati kajganu, u koju ste dodali malo neutralne pavlake za kuvanje i začine po želji.",
       "Kao salatu možete da dodate paradajz ili krastavce."
     ],
-    "image": "avokado_tost.jpg"
+    "image": "avokado_tost.jpg",
+    "servings": 1
   },
   {
     "name": "Čokoladni mafini",
@@ -648,7 +679,8 @@
       "Smesu sipati u kalupe, a zatim dodati i ostatak čokolade preko smese.",
       "Peći 20 minuta na 180°C."
     ],
-    "image": "mafini.jpg"
+    "image": "mafini.jpg",
+    "servings": 6
   },
   {
     "name": "Brownie",
@@ -663,7 +695,8 @@
       "Dodati jaja i brašno uz konstantno mešanje kako ne bi skuvali jaja u vrućoj čokoladi.",
       "Sipati u pleh u kom je papir za pečenje i peći 25 minuta na 180°C."
     ],
-    "image": "brownie.jpg"
+    "image": "brownie.jpg",
+    "servings": 6
   },
   {
     "name": "Cezar salata",
@@ -679,6 +712,7 @@
       "Hleb iseckajte na kockice i zapecite u rerni dok ne porumeni i bude hrskav. Sjediniti salatu, hleb, pančetu i piletinu.",
       "Dodati parmezan i začine po želji, malo maslinovog ulja i sok od limuna ili limete."
     ],
-    "image": "cezar.jpg"
+    "image": "cezar.jpg",
+    "servings": 2
   }
 ]
