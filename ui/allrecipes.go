@@ -3,6 +3,7 @@ package ui
 import (
 	"encoding/json"
 	"fmt"
+	"image/color"
 	"os"
 	"sort"
 	"strconv"
@@ -69,6 +70,12 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 		steps = append(steps, widget.NewLabel(strconv.Itoa(i+1)+". "+step))
 	}
 
+	lbl := canvas.NewText("Sastojci:", color.White)
+	lbl.TextStyle.Bold = true
+
+	lbl1 := canvas.NewText("Postupak:", color.White)
+	lbl1.TextStyle.Bold = true
+
 	// celi prozor za recept
 	content := container.NewVBox(makeBack(w, func() {
 		ShowAllRecipes(w, recipes, ii)
@@ -77,13 +84,12 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 
 		container.NewHBox(img),
 
-		widget.NewLabel(fmt.Sprintf("Za %d osoba", recipe.Servings)),
+		widget.NewLabel(fmt.Sprintf("Osobe: %d", recipe.Servings)),
 
-		widget.NewLabel("Sastojci"),
-		container.NewVBox(ingredients...),
+		container.NewVBox(lbl, container.NewVBox(ingredients...)),
 
 		widget.NewLabel("Postupak"),
-		container.NewVBox(steps...),
+		container.NewVBox(lbl1, container.NewVBox(steps...)),
 	)
 
 	// skrolovanje
@@ -100,11 +106,12 @@ func ShowAllRecipes(w fyne.Window, recipes []*models.Recipe, ii *models.Inverted
 
 		r := recipe
 
+		// dugme za recepte
 		btn := widget.NewButton(r.Name, func() {
 			ShowRecipeDetail(w, r, recipes, ii)
 		})
 
-		buttons = append(buttons, btn)
+		buttons = append(buttons, container.NewPadded(btn))
 	}
 
 	if len(buttons) == 0 {
@@ -114,9 +121,10 @@ func ShowAllRecipes(w fyne.Window, recipes []*models.Recipe, ii *models.Inverted
 	grid := container.NewGridWithColumns(2, buttons...)
 
 	// prozor sa svim receptima
-	content := container.NewVBox(makeBack(w, func() {
+	content := container.NewBorder(makeBack(w, func() {
 		ShowHome(w, recipes, ii)
-	}), grid)
+	}), nil, nil, nil, container.NewPadded(grid))
+	// dodaje razmak od ivica
 
 	w.SetContent(container.NewScroll(content))
 }

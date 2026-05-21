@@ -28,13 +28,13 @@ func makeCard(
 ) fyne.CanvasObject {
 
 	bg := canvas.NewRectangle(
-		color.RGBA{230, 230, 230, 255},
+		color.RGBA{230, 245, 255, 255},
 	)
 	bg.CornerRadius = 20
 
 	btn := widget.NewButton("", click)
 
-	label := canvas.NewText(text, color.Black)
+	label := canvas.NewText(text, color.White)
 	label.TextSize = size
 
 	return container.NewStack(
@@ -83,8 +83,6 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		w.SetContent(container.NewScroll(content))
 	}
 
-	search.Resize(fyne.NewSize(540, 60))
-
 	topCard := makeCard(
 		"Svi recepti",
 		28,
@@ -95,7 +93,7 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 
 	bottomCard := makeCard(
 		"Biranje namirnica",
-		18,
+		28,
 		func() {
 			ShowIngredientSearch(
 				w,
@@ -105,34 +103,16 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		},
 	)
 
-	topWrapper := container.NewGridWrap(
-		fyne.NewSize(640, 380),
-		topCard,
-	)
-
-	bottomWrapper := container.NewGridWrap(
-		fyne.NewSize(640, 380),
-		bottomCard,
-	)
+	// velicina dugmica se menja menjanjem velicine prozora
+	grid := container.NewGridWithRows(2, topCard, bottomCard)
 
 	addBtn := widget.NewButton("+", func() {
-		placeholderScreen(
-			w,
-			"Dodavanje recepta",
-			recipes,
-			ii,
-		)
+		placeholderScreen(w, "Dodavanje recepata", recipes, ii)
 	})
 
-	addBtn.Resize(fyne.NewSize(170, 170))
+	bg := canvas.NewRectangle(color.RGBA{245, 245, 245, 255})
 
-	content := container.NewVBox(
-		search,
-		layout.NewSpacer(),
-		topWrapper,
-		layout.NewSpacer(),
-		bottomWrapper,
-	)
+	content := container.NewBorder(search, nil, nil, nil, container.NewPadded(grid))
 
 	floating := container.NewVBox(
 		layout.NewSpacer(),
@@ -142,14 +122,10 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		),
 	)
 
-	bg := canvas.NewRectangle(
-		color.RGBA{245, 245, 245, 255},
-	)
-
 	w.SetContent(
 		container.NewStack(
 			bg,
-			container.NewPadded(content),
+			content,
 			container.NewPadded(floating),
 		),
 	)
