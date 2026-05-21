@@ -65,7 +65,7 @@ func ShowIngredientSearch(w fyne.Window, recipes []*models.Recipe, ii *models.In
 
 		// Pravi screen
 		resultScreen := container.NewVBox(
-			widget.NewButton("Nazad", func() {
+			makeBack(w, func() {
 				ShowIngredientSearch(w, recipes, ii)
 			}),
 			container.NewVBox(buttons...),
@@ -74,8 +74,10 @@ func ShowIngredientSearch(w fyne.Window, recipes []*models.Recipe, ii *models.In
 		w.SetContent(container.NewScroll(resultScreen))
 	})
 
+	grid := container.NewGridWithColumns(3, checks...)
+
 	// Menja pocetni ekran
-	w.SetContent(container.NewScroll(
-		container.NewVBox(append(checks, btn)...),
-	))
+	w.SetContent(container.NewScroll(container.NewVBox(makeBack(w, func() {
+		ShowHome(w, recipes, ii)
+	}), grid, btn)))
 }

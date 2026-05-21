@@ -8,31 +8,15 @@ import (
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
 )
 
 func placeholderScreen(w fyne.Window, title string, recipes []*models.Recipe, ii *models.InvertedIndex) {
-
-	back := widget.NewButtonWithIcon(
-		"",
-		theme.NavigateBackIcon(),
-		func() {
-			ShowHome(w, recipes, ii)
-		},
-	)
-
-	back.Resize(fyne.NewSize(60, 40))
-
 	label := widget.NewLabel(title)
 
-	content := container.NewBorder(
-		container.NewHBox(back),
-		nil,
-		nil,
-		nil,
-		container.NewCenter(label),
-	)
+	content := container.NewBorder(makeBack(w, func() {
+		ShowHome(w, recipes, ii)
+	}), nil, nil, nil, container.NewCenter(label))
 
 	w.SetContent(content)
 }
