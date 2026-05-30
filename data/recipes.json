@@ -3,7 +3,7 @@
     "name": "Lazanje",
     "ingredients": [
       {"name": "Kora za lazanje","quantity": 1,"unit": "pakovanje"},
-      {"name": "Crni luk","quantity": 1,"unit": " "},
+      {"name": "Crni luk","quantity": 1,"unit": ""},
       {"name": "Beli luk", "quantity": 4,"unit": "čena"},
       {"name": "Narendana šargarepa","quantity": 100,"unit": "g"},
       {"name": "Svinjsko meso","quantity": 250,"unit": "g"},
@@ -34,14 +34,14 @@
     "ingredients": [
       {"name": "Krompir","quantity": 700,"unit": "g"},
       {"name": "Mleveno meso","quantity": 500,"unit": "g"},
-      {"name": "Crveni luk","quantity": 1,"unit": " "},
-      {"name": "Ljubičasti luk","quantity": 1,"unit": " "},
+      {"name": "Crveni luk","quantity": 1,"unit": ""},
+      {"name": "Ljubičasti luk","quantity": 1,"unit": ""},
       {"name": "Beli luk","quantity": 3,"unit": "čena"},
-      {"name": "Tikvica","quantity": 1,"unit": " "},
-      {"name": "Crvena paprika","quantity": 1,"unit": " "},
-      {"name": "Jaja","quantity": 3,"unit": " "},
+      {"name": "Tikvica","quantity": 1,"unit": ""},
+      {"name": "Crvena paprika","quantity": 1,"unit": ""},
+      {"name": "Jaja","quantity": 3,"unit": ""},
       {"name": "Mleko","quantity": 400,"unit": "ml"},
-      {"name": "Šargarepa","quantity": 1,"unit": " "},
+      {"name": "Šargarepa","quantity": 1,"unit": ""},
       {"name": "Maslinovo ulje","quantity": 1,"unit": "kašika"}
     ],
     "steps": [
@@ -64,11 +64,11 @@
       {"name": "Mleko","quantity": 300,"unit": "ml"},
       {"name": "Voda","quantity": 200,"unit": "ml"},
       {"name": "Jogurt","quantity": 100,"unit": "ml"},
-      {"name": "Prašak za pecivo","quantity": 1,"unit": " "},
+      {"name": "Prašak za pecivo","quantity": 1,"unit": ""},
       {"name": "Suvi kvasac","quantity": 1,"unit": "kesica"},
       {"name": "Šećer","quantity": 1,"unit": "kašičica"},
       {"name": "So","quantity": 1,"unit": "kašičica"},
-      {"name": "Jaja","quantity": 1,"unit": " "}
+      {"name": "Jaja","quantity": 1,"unit": ""}
     ],
     "steps": [
       "U malo toplog mleka dodati kvasac, šećer i kašiku brašna i ostaviti 5-10 minuta.",
@@ -113,7 +113,7 @@
       {"name": "Šećer","quantity": 60,"unit": "g"},
       {"name": "So","quantity": 1,"unit": "kašičica"},
       {"name": "Maslac","quantity": 80,"unit": "g"},
-      {"name": "Jaja","quantity": 2,"unit": " "},
+      {"name": "Jaja","quantity": 2,"unit": ""},
       {"name": "Brašno","quantity": 650,"unit": "g"},
       {"name": "Cimet","quantity": 3,"unit": "kesice"},
       {"name": "Smeđi šećer","quantity": 200,"unit": "g"},
@@ -160,7 +160,7 @@
     "ingredients": [
       {"name":"Pirinač","quantity":300,"unit":"g"},
       {"name":"Gambor","quantity":350,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":3,"unit":"čena"},
       {"name":"Belo vino","quantity":100,"unit":"ml"},
       {"name":"Bujon","quantity":900,"unit":"ml"},
@@ -183,13 +183,13 @@
   {
     "name": "Punjene paprike",
     "ingredients": [
-      {"name":"Paprika","quantity":8,"unit":" "},
+      {"name":"Paprika","quantity":8,"unit":""},
       {"name":"Mleveno meso","quantity":600,"unit":"g"},
       {"name":"Pirinač","quantity":100,"unit":"g"},
-      {"name":"Crni luk","quantity":2,"unit":" "},
+      {"name":"Crni luk","quantity":2,"unit":""},
       {"name":"Beli luk","quantity":3,"unit":"čena"},
       {"name":"Paradajz sos","quantity":700,"unit":"ml"},
-      {"name":"Šargarep","quantity":1,"unit":" "},
+      {"name":"Šargarep","quantity":1,"unit":""},
       {"name":"Ulje","quantity":3,"unit":"kašike"}
     ],
     "steps": [
@@ -235,11 +235,11 @@
     "name": "Burger sa domaćim sosom",
     "ingredients": [
       {"name":"Mlevena junetina","quantity":700,"unit":"g"},
-      {"name":"Burger zemičke","quantity":4,"unit":" "},
+      {"name":"Burger zemičke","quantity":4,"unit":""},
       {"name":"Sir","quantity":150,"unit":"g"},
       {"name":"Zelena salata","quantity":100,"unit":"g"},
-      {"name":"Paradajz","quantity":2,"unit":" "},
-      {"name":"Krastavčići","quantity":6,"unit":" "},
+      {"name":"Paradajz","quantity":2,"unit":""},
+      {"name":"Krastavčići","quantity":6,"unit":""},
       {"name":"Majonez","quantity":4,"unit":"kašike"},
       {"name":"Kečap","quantity":2,"unit":"kašike"},
       {"name":"Senf","quantity":1,"unit":"kašika"}
@@ -260,7 +260,7 @@
     "name": "Curry piletina",
     "ingredients": [
       {"name":"Pileći file","quantity":500,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":3,"unit":"čena"},
       {"name":"Kokosovo mleko","quantity":400,"unit":"ml"},
       {"name":"Curry prah","quantity":2,"unit":"kašike"},
@@ -284,7 +284,7 @@
       {"name":"Brašno","quantity":300,"unit":"g"},
       {"name":"Šećer","quantity":250,"unit":"g"},
       {"name":"Kakao","quantity":70,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
       {"name":"Mleko","quantity":250,"unit":"ml"},
       {"name":"Puter","quantity":150,"unit":"g"},
       {"name":"Čokolada","quantity":200,"unit":"g"},
@@ -309,7 +309,7 @@
       {"name":"Dimljeni losos","quantity":250,"unit":"g"},
       {"name":"Neutralna pavlaka","quantity":250,"unit":"ml"},
       {"name":"Beli luk","quantity":2,"unit":"čena"},
-      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Limun","quantity":1,"unit":""},
       {"name":"Parmezan","quantity":70,"unit":"g"}
     ],
     "steps": [
@@ -328,7 +328,7 @@
     "ingredients": [
       {"name":"Tamna čokolada","quantity":200,"unit":"g"},
       {"name":"Slatka pavlaka","quantity":300,"unit":"ml"},
-      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Jaja","quantity":3,"unit":""},
       {"name":"Šećer","quantity":50,"unit":"g"},
       {"name":"Vanila","quantity":1,"unit":"kesica"}
     ],
@@ -368,7 +368,7 @@
     "ingredients": [
       {"name":"Pileći file","quantity":600,"unit":"g"},
       {"name":"Prezle","quantity":200,"unit":"g"},
-      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Jaja","quantity":2,"unit":""},
       {"name":"Parmezan","quantity":100,"unit":"g"},
       {"name":"Mocarela","quantity":200,"unit":"g"},
       {"name":"Paradajz sos","quantity":400,"unit":"ml"}
@@ -388,9 +388,9 @@
     "ingredients": [
       {"name":"Testenina","quantity":400,"unit":"g"},
       {"name":"Mleveno meso","quantity":500,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
-      {"name":"Šargarepa","quantity":1,"unit":" "},
-      {"name":"Celer","quantity":1,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
+      {"name":"Šargarepa","quantity":1,"unit":""},
+      {"name":"Celer","quantity":1,"unit":""},
       {"name":"Paradajz sos","quantity":700,"unit":"ml"},
       {"name":"Crveno vino","quantity":100,"unit":"ml"}
     ],
@@ -410,7 +410,7 @@
     "ingredients": [
       {"name":"Brašno","quantity":250,"unit":"g"},
       {"name":"Šećer","quantity":150,"unit":"g"},
-      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Jaja","quantity":2,"unit":""},
       {"name":"Mleko","quantity":150,"unit":"ml"},
       {"name":"Puter","quantity":100,"unit":"g"},
       {"name":"Borovnica","quantity":150,"unit":"g"}
@@ -429,10 +429,10 @@
   {
     "name": "Takosi sa junetinom",
     "ingredients": [
-      {"name":"Takos","quantity":8,"unit":" "},
+      {"name":"Takos","quantity":8,"unit":""},
       {"name":"Mlevena junetina","quantity":500,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
-      {"name":"Paradajz","quantity":2,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
+      {"name":"Paradajz","quantity":2,"unit":""},
       {"name":"Zelena salata","quantity":100,"unit":"g"},
       {"name":"Sir","quantity":150,"unit":"g"}
     ],
@@ -450,9 +450,9 @@
     "ingredients": [
       {"name":"Pirinač","quantity":300,"unit":"g"},
       {"name":"Pileći file","quantity":400,"unit":"g"},
-      {"name":"Šargarepa","quantity":1,"unit":" "},
+      {"name":"Šargarepa","quantity":1,"unit":""},
       {"name":"Grašak","quantity":100,"unit":"g"},
-      {"name":"Paprika","quantity":1,"unit":" "},
+      {"name":"Paprika","quantity":1,"unit":""},
       {"name":"Bujon","quantity":900,"unit":"ml"}
     ],
     "steps": [
@@ -470,7 +470,7 @@
       {"name":"Plazma","quantity":300,"unit":"g"},
       {"name":"Puter","quantity":120,"unit":"g"},
       {"name":"Karamel preliv","quantity":250,"unit":"g"},
-      {"name":"Banane","quantity":3,"unit":" "},
+      {"name":"Banane","quantity":3,"unit":""},
       {"name":"Slatka pavlaka","quantity":300,"unit":"ml"}
     ],
     "steps": [
@@ -503,7 +503,7 @@
     "name": "Kremasta supa od bundeve",
     "ingredients": [
       {"name":"Bundeve","quantity":700,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":2,"unit":"čena"},
       {"name":"Neutralna pavlaka","quantity":150,"unit":"ml"},
       {"name":"Bujon","quantity":700,"unit":"ml"}
@@ -522,7 +522,7 @@
     "ingredients": [
       {"name":"Testenina","quantity":400,"unit":"g"},
       {"name":"Slanina","quantity":200,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
       {"name":"Parmezan","quantity":100,"unit":"g"},
       {"name":"Beli luk","quantity":2,"unit":"čena"}
     ],
@@ -554,7 +554,7 @@
     "ingredients": [
       {"name":"Pirinač","quantity":300,"unit":"g"},
       {"name":"Šampinjoni","quantity":250,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Bujon","quantity":700,"unit":"ml"},
       {"name":"Parmezan","quantity":80,"unit":"g"}
     ],
@@ -587,7 +587,7 @@
     "ingredients": [
       {"name":"Pileći file","quantity":500,"unit":"g"},
       {"name":"Brokoli","quantity":200,"unit":"g"},
-      {"name":"Šargarepa","quantity":2,"unit":" "},
+      {"name":"Šargarepa","quantity":2,"unit":""},
       {"name":"Soja sos","quantity":3,"unit":"kašike"}
     ],
     "steps": [
@@ -601,7 +601,7 @@
   {
     "name": "Tortilje sa piletinom",
     "ingredients": [
-      {"name":"Tortilje","quantity":4,"unit":" "},
+      {"name":"Tortilje","quantity":4,"unit":""},
       {"name":"Pileći file","quantity":400,"unit":"g"},
       {"name":"Sir","quantity":150,"unit":"g"},
       {"name":"Zelena salata","quantity":100,"unit":"g"}
@@ -619,7 +619,7 @@
       {"name":"Ovsene pahuljice","quantity":80,"unit":"g"},
       {"name":"Mleko","quantity":250,"unit":"ml"},
       {"name":"Med","quantity":1,"unit":"kašika"},
-      {"name":"Banane","quantity":1,"unit":" "}
+      {"name":"Banane","quantity":1,"unit":""}
     ],
     "steps": [
       "Skuvati ovsene pahuljice u mleku.",
@@ -633,9 +633,9 @@
     "name": "Tost sa avokadom",
     "ingredients": [
       {"name":"Tost hleb","quantity":2,"unit":"kriške"},
-      {"name":"Avokado","quantity":1,"unit":" "},
-      {"name":"Limun","quantity":1,"unit":" "},
-      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Avokado","quantity":1,"unit":""},
+      {"name":"Limun","quantity":1,"unit":""},
+      {"name":"Jaja","quantity":2,"unit":""},
       {"name":"Neutralna pavlaka","quantity":20,"unit":"ml"}
     ],
     "steps": [
@@ -652,8 +652,8 @@
       {"name":"Brašno","quantity":250,"unit":"g"},
       {"name":"Šećer","quantity":150,"unit":"g"},
       {"name":"Kakao","quantity":50,"unit":"g"},
-      {"name":"Jaja","quantity":2,"unit":" "},
-      {"name":"Crna čokolada","quantity":150,"unit":" "}
+      {"name":"Jaja","quantity":2,"unit":""},
+      {"name":"Crna čokolada","quantity":150,"unit":""}
     ],
     "steps": [
       "Pomešati odvojeno sve suve, a zatim i sve mokre sastojke i na kraju sjediniti i dodati većinu seckane čokolade.",
@@ -668,7 +668,7 @@
     "ingredients": [
       {"name":"Crna čokolada","quantity":200,"unit":"g"},
       {"name":"Puter","quantity":150,"unit":"g"},
-      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Jaja","quantity":3,"unit":""},
       {"name":"Brašno","quantity":100,"unit":"g"}
     ],
     "steps": [
@@ -701,7 +701,7 @@
     "ingredients": [
       {"name":"Pileći file","quantity":600,"unit":"g"},
       {"name":"Kokosovo mleko","quantity":400,"unit":"ml"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":3,"unit":"čena"},
       {"name":"Curry pasta","quantity":2,"unit":"kašike"},
       {"name":"Basmati pirinač","quantity":300,"unit":"g"},
@@ -722,8 +722,8 @@
     "name": "Goveđi gulaš",
     "ingredients": [
       {"name":"Juneće meso","quantity":700,"unit":"g"},
-      {"name":"Crni luk","quantity":2,"unit":" "},
-      {"name":"Šargarepa","quantity":2,"unit":" "},
+      {"name":"Crni luk","quantity":2,"unit":""},
+      {"name":"Šargarepa","quantity":2,"unit":""},
       {"name":"Paradajz sos","quantity":300,"unit":"ml"},
       {"name":"Bujon","quantity":500,"unit":"ml"},
       {"name":"Paprika mlevena","quantity":2,"unit":"kašike"},
@@ -744,8 +744,8 @@
     "ingredients": [
       {"name":"Pasta","quantity":400,"unit":"g"},
       {"name":"Tunjevina","quantity":200,"unit":"g"},
-      {"name":"Paradajz","quantity":3,"unit":" "},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Paradajz","quantity":3,"unit":""},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":2,"unit":"čena"},
       {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
     ],
@@ -781,9 +781,9 @@
     "name": "Giros u tortilji",
     "ingredients": [
       {"name":"Pileći file","quantity":500,"unit":"g"},
-      {"name":"Tortilje","quantity":4,"unit":" "},
+      {"name":"Tortilje","quantity":4,"unit":""},
       {"name":"Jogurt","quantity":200,"unit":"ml"},
-      {"name":"Krastavac","quantity":1,"unit":" "},
+      {"name":"Krastavac","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":2,"unit":"čena"}
     ],
     "steps": [
@@ -801,7 +801,7 @@
       {"name":"Kore za pitu","quantity":500,"unit":"g"},
       {"name":"Spanać","quantity":300,"unit":"g"},
       {"name":"Sir","quantity":300,"unit":"g"},
-      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Jaja","quantity":2,"unit":""},
       {"name":"Jogurt","quantity":200,"unit":"ml"}
     ],
     "steps": [
@@ -849,9 +849,9 @@
   {
     "name": "Musaka od tikvica",
     "ingredients": [
-      {"name":"Tikvica","quantity":3,"unit":" "},
+      {"name":"Tikvica","quantity":3,"unit":""},
       {"name":"Mleveno meso","quantity":500,"unit":"g"},
-      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Jaja","quantity":3,"unit":""},
       {"name":"Pavlaka","quantity":200,"unit":"ml"}
     ],
     "steps": [
@@ -866,10 +866,10 @@
   {
     "name": "Piletina u rerni sa povrćem",
     "ingredients": [
-      {"name":"Pileći bataci","quantity":6,"unit":"kom"},
+      {"name":"Pileći bataci","quantity":6,"unit":""},
       {"name":"Krompir","quantity":500,"unit":"g"},
-      {"name":"Šargarepa","quantity":2,"unit":" "},
-      {"name":"Paprika","quantity":2,"unit":" "},
+      {"name":"Šargarepa","quantity":2,"unit":""},
+      {"name":"Paprika","quantity":2,"unit":""},
       {"name":"Maslinovo ulje","quantity":3,"unit":"kašike"}
     ],
     "steps": [
@@ -884,10 +884,10 @@
     "name": "Fajitas sa piletinom",
     "ingredients": [
       {"name":"Pileći file","quantity":500,"unit":"g"},
-      {"name":"Paprika","quantity":2,"unit":" "},
-      {"name":"Crni luk","quantity":1,"unit":" "},
-      {"name":"Tortilje","quantity":4,"unit":" "},
-      {"name":"Limun","quantity":1,"unit":" "}
+      {"name":"Paprika","quantity":2,"unit":""},
+      {"name":"Crni luk","quantity":1,"unit":""},
+      {"name":"Tortilje","quantity":4,"unit":""},
+      {"name":"Limun","quantity":1,"unit":""}
     ],
     "steps": [
       "Ispeći piletinu i povrće.",
@@ -917,7 +917,7 @@
     "name": "Piletina sa limunom i belim lukom",
     "ingredients": [
       {"name":"Pileći file","quantity":500,"unit":"g"},
-      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Limun","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":4,"unit":"čena"},
       {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
     ],
@@ -935,7 +935,7 @@
       {"name":"File lososa","quantity":500,"unit":"g"},
       {"name":"Med","quantity":2,"unit":"kašike"},
       {"name":"Dijon senf","quantity":2,"unit":"kašike"},
-      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Limun","quantity":1,"unit":""},
       {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
     ],
     "steps": [
@@ -951,10 +951,10 @@
     "name": "Tuna bowl",
     "ingredients": [
       {"name":"Tunjevina","quantity":200,"unit":"g"},
-      {"name":"Avokado","quantity":1,"unit":" "},
+      {"name":"Avokado","quantity":1,"unit":""},
       {"name":"Pirinač","quantity":200,"unit":"g"},
       {"name":"Kukuruz","quantity":100,"unit":"g"},
-      {"name":"Krastavac","quantity":1,"unit":" "},
+      {"name":"Krastavac","quantity":1,"unit":""},
       {"name":"Soja sos","quantity":2,"unit":"kašike"}
     ],
     "steps": [
@@ -972,9 +972,9 @@
       {"name":"Pileći file","quantity":500,"unit":"g"},
       {"name":"Soja sos","quantity":3,"unit":"kašike"},
       {"name":"Kikiriki","quantity":80,"unit":"g"},
-      {"name":"Paprika","quantity":2,"unit":" "},
+      {"name":"Paprika","quantity":2,"unit":""},
       {"name":"Beli luk","quantity":3,"unit":"čena"},
-      {"name":"Ljuta paprika","quantity":1,"unit":" "},
+      {"name":"Ljuta paprika","quantity":1,"unit":""},
       {"name":"Med","quantity":1,"unit":"kašika"}
     ],
     "steps": [
@@ -991,8 +991,8 @@
     "ingredients": [
       {"name":"Sushi pirinač","quantity":250,"unit":"g"},
       {"name":"Losos","quantity":200,"unit":"g"},
-      {"name":"Avokado","quantity":1,"unit":" "},
-      {"name":"Krastavac","quantity":1,"unit":" "},
+      {"name":"Avokado","quantity":1,"unit":""},
+      {"name":"Krastavac","quantity":1,"unit":""},
       {"name":"Soja sos","quantity":2,"unit":"kašike"},
       {"name":"Susam","quantity":1,"unit":"kašika"}
     ],
@@ -1011,7 +1011,7 @@
       {"name":"Gambori","quantity":400,"unit":"g"},
       {"name":"Puter","quantity":50,"unit":"g"},
       {"name":"Beli luk","quantity":4,"unit":"čena"},
-      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Limun","quantity":1,"unit":""},
       {"name":"Peršun","quantity":20,"unit":"g"}
     ],
     "steps": [
@@ -1047,8 +1047,8 @@
       {"name":"Pileći file","quantity":500,"unit":"g"},
       {"name":"Krompir","quantity":400,"unit":"g"},
       {"name":"Tzatziki sos","quantity":200,"unit":"ml"},
-      {"name":"Pita hleb","quantity":2,"unit":" "},
-      {"name":"Paradajz","quantity":2,"unit":" "}
+      {"name":"Pita hleb","quantity":2,"unit":""},
+      {"name":"Paradajz","quantity":2,"unit":""}
     ],
     "steps": [
       "Ispeći piletinu sa začinima.",
@@ -1064,7 +1064,7 @@
     "ingredients": [
       {"name":"Ramen rezanci","quantity":200,"unit":"g"},
       {"name":"Pileći bujon","quantity":800,"unit":"ml"},
-      {"name":"Jaje","quantity":2,"unit":" "},
+      {"name":"Jaje","quantity":2,"unit":""},
       {"name":"Soja sos","quantity":3,"unit":"kašike"},
       {"name":"Beli luk","quantity":2,"unit":"čena"}
     ],
@@ -1114,10 +1114,10 @@
   {
     "name": "Šakšuka",
     "ingredients": [
-      {"name":"Jaja","quantity":4,"unit":" "},
-      {"name":"Paradajz","quantity":4,"unit":" "},
-      {"name":"Paprika","quantity":2,"unit":" "},
-      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
+      {"name":"Paradajz","quantity":4,"unit":""},
+      {"name":"Paprika","quantity":2,"unit":""},
+      {"name":"Crni luk","quantity":1,"unit":""},
       {"name":"Beli luk","quantity":2,"unit":"čena"}
     ],
     "steps": [
@@ -1149,8 +1149,8 @@
     "ingredients": [
       {"name":"Kore","quantity":500,"unit":"g"},
       {"name":"Mleveno meso","quantity":500,"unit":"g"},
-      {"name":"Crni luk","quantity":1,"unit":" "},
-      {"name":"Jaja","quantity":2,"unit":" "}
+      {"name":"Crni luk","quantity":1,"unit":""},
+      {"name":"Jaja","quantity":2,"unit":""}
     ],
     "steps": [
       "Ispržiti meso i luk.",
@@ -1166,7 +1166,7 @@
       {"name":"Pileći file","quantity":500,"unit":"g"},
       {"name":"Soja sos","quantity":4,"unit":"kašike"},
       {"name":"Brokoli","quantity":200,"unit":"g"},
-      {"name":"Šargarepa","quantity":2,"unit":" "}
+      {"name":"Šargarepa","quantity":2,"unit":""}
     ],
     "steps": [
       "Ispržiti piletinu.",
@@ -1215,7 +1215,7 @@
       {"name":"Slatka pavlaka","quantity":400,"unit":"ml"},
       {"name":"Šećer","quantity":80,"unit":"g"},
       {"name":"Želatin","quantity":10,"unit":"g"},
-      {"name":"Vanila","quantity":1,"unit":" "},
+      {"name":"Vanila","quantity":1,"unit":""},
       {"name":"Maline","quantity":100,"unit":"g"}
     ],
     "steps": [
@@ -1256,7 +1256,7 @@
       {"name":"Brašno","quantity":300,"unit":"g"},
       {"name":"Kakao","quantity":80,"unit":"g"},
       {"name":"Šećer","quantity":250,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
       {"name":"Mleko","quantity":250,"unit":"ml"},
       {"name":"Puter","quantity":150,"unit":"g"},
       {"name":"Tamna čokolada","quantity":200,"unit":"g"},
@@ -1280,7 +1280,7 @@
       {"name":"Brašno","quantity":300,"unit":"g"},
       {"name":"Šećer","quantity":250,"unit":"g"},
       {"name":"Kakao","quantity":15,"unit":"g"},
-      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Jaja","quantity":2,"unit":""},
       {"name":"Puter","quantity":120,"unit":"g"},
       {"name":"Mleko","quantity":250,"unit":"ml"},
       {"name":"Crvena prehrambena boja","quantity":2,"unit":"kašike"},
@@ -1324,7 +1324,7 @@
     "name": "Medovik",
     "ingredients": [
       {"name":"Med","quantity":3,"unit":"kašike"},
-      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Jaja","quantity":3,"unit":""},
       {"name":"Šećer","quantity":200,"unit":"g"},
       {"name":"Brašno","quantity":500,"unit":"g"},
       {"name":"Puter","quantity":100,"unit":"g"},
@@ -1347,7 +1347,7 @@
     "ingredients": [
       {"name":"Piškote","quantity":400,"unit":"g"},
       {"name":"Maskarpone","quantity":500,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
       {"name":"Šećer","quantity":150,"unit":"g"},
       {"name":"Espresso kafa","quantity":300,"unit":"ml"},
       {"name":"Kakao","quantity":30,"unit":"g"}
@@ -1369,7 +1369,7 @@
     "ingredients": [
       {"name":"Tamna čokolada","quantity":200,"unit":"g"},
       {"name":"Puter","quantity":120,"unit":"g"},
-      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Jaja","quantity":3,"unit":""},
       {"name":"Šećer","quantity":100,"unit":"g"},
       {"name":"Brašno","quantity":60,"unit":"g"}
     ],
@@ -1389,7 +1389,7 @@
       {"name":"Brašno","quantity":250,"unit":"g"},
       {"name":"Puter","quantity":125,"unit":"g"},
       {"name":"Šećer","quantity":100,"unit":"g"},
-      {"name":"Jaje","quantity":1,"unit":" "},
+      {"name":"Jaje","quantity":1,"unit":""},
       {"name":"Krem puding","quantity":400,"unit":"g"},
       {"name":"Voće","quantity":300,"unit":"g"}
     ],
@@ -1407,11 +1407,11 @@
   {
     "name": "Banana karamela torta",
     "ingredients": [
-      {"name":"Banane","quantity":4,"unit":" "},
+      {"name":"Banane","quantity":4,"unit":""},
       {"name":"Šećer","quantity":200,"unit":"g"},
       {"name":"Puter","quantity":100,"unit":"g"},
       {"name":"Brašno","quantity":250,"unit":"g"},
-      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Jaja","quantity":3,"unit":""},
       {"name":"Slatka pavlaka","quantity":200,"unit":"ml"}
     ],
     "steps": [
@@ -1427,7 +1427,7 @@
   {
     "name": "Bečka štrudla sa jabukama",
     "ingredients": [
-      {"name":"Jabuke","quantity":5,"unit":" "},
+      {"name":"Jabuke","quantity":5,"unit":""},
       {"name":"Brašno","quantity":300,"unit":"g"},
       {"name":"Šećer","quantity":150,"unit":"g"},
       {"name":"Cimet","quantity":2,"unit":"kašičice"},
@@ -1467,7 +1467,7 @@
     "ingredients": [
       {"name":"Voda","quantity":250,"unit":"ml"},
       {"name":"Brašno","quantity":150,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
       {"name":"Čokolada","quantity":200,"unit":"g"},
       {"name":"Slatka pavlaka","quantity":300,"unit":"ml"}
     ],
@@ -1485,7 +1485,7 @@
     "ingredients": [
       {"name":"Milka čokolada","quantity":300,"unit":"g"},
       {"name":"Puter","quantity":150,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Jaja","quantity":4,"unit":""},
       {"name":"Brašno","quantity":200,"unit":"g"},
       {"name":"Šećer","quantity":200,"unit":"g"}
     ],
