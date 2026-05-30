@@ -10,6 +10,38 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
+type ClickableCard struct {
+	widget.BaseWidget
+	OnTapped func()
+}
+
+func NewClickableCard(f func()) *ClickableCard {
+	c := &ClickableCard{OnTapped: f}
+	c.ExtendBaseWidget(c)
+	return c
+}
+
+func (c *ClickableCard) Tapped(*fyne.PointEvent) {
+	if c.OnTapped != nil {
+		c.OnTapped()
+	}
+}
+
+func (c *ClickableCard) TappedSecondary(*fyne.PointEvent) {}
+
+func (c *ClickableCard) CreateRenderer() fyne.WidgetRenderer {
+	rect := canvas.NewRectangle(color.Transparent)
+	return widget.NewSimpleRenderer(rect)
+}
+
+func withBackground(content fyne.CanvasObject, imgPath string) fyne.CanvasObject {
+	bg := canvas.NewImageFromFile("images/" + imgPath)
+	bg.FillMode = canvas.ImageFillCover
+
+	return container.NewStack(bg, content)
+
+}
+
 func placeholderScreen(w fyne.Window, title string, recipes []*models.Recipe, ii *models.InvertedIndex) {
 	label := widget.NewLabel(title)
 
@@ -17,7 +49,7 @@ func placeholderScreen(w fyne.Window, title string, recipes []*models.Recipe, ii
 		ShowHome(w, recipes, ii)
 	}), nil, nil, nil, container.NewCenter(label))
 
-	w.SetContent(content)
+	w.SetContent(withBackground(content, "galaxy.jpg"))
 }
 
 func makeCard(
@@ -53,19 +85,20 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 
 		overlay := canvas.NewRectangle(color.NRGBA{0, 0, 0, 0})
 
-		label := canvas.NewText(title, color.White)
+		label := canvas.NewText(title, color.Black)
 		label.TextStyle.Bold = true
 		label.TextSize = 32
 
-		btn := widget.NewButton("", click)
-		btn.Importance = widget.LowImportance
+		textBg := canvas.NewRectangle(color.NRGBA{R: 255, G: 255, B: 255, A: 180})
+		textBg.CornerRadius = 12
 
-		return container.NewStack(
-			img,
-			container.NewCenter(label),
-			overlay,
-			btn,
-		)
+		textBox := container.NewPadded(label)
+
+		textContainer := container.NewStack(textBg, textBox)
+
+		clickArea := NewClickableCard(click)
+
+		return container.NewStack(img, container.NewCenter(textContainer), overlay, clickArea)
 	}
 
 	search.OnSubmitted = func(text string) {
@@ -99,7 +132,7 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		)
 
 		// Menjamo ceo UI
-		w.SetContent(container.NewScroll(content))
+		w.SetContent(withBackground(content, "galaxy.jpg"))
 	}
 
 	topCard := makeImageButton(
@@ -133,5 +166,5 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		container.NewPadded(grid),
 	)
 
-	w.SetContent(content)
+	w.SetContent(withBackground(content, "galaxy.jpg"))
 }

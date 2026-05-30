@@ -50,11 +50,20 @@ func makeBack(w fyne.Window, click func()) fyne.CanvasObject {
 
 func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
-	title := widget.NewLabel(recipe.Name)
+	titleText := canvas.NewText(recipe.Name, color.Black)
+	titleText.TextSize = 28
+	titleText.TextStyle.Bold = true
+
+	titleBg := canvas.NewRectangle(color.NRGBA{R: 255, G: 255, B: 255, A: 180})
+	titleBg.CornerRadius = 20
+
+	title := container.NewCenter(container.NewStack(titleBg, container.NewPadded(titleText)))
 
 	img := canvas.NewImageFromFile("images/" + recipe.Image)
 	img.FillMode = canvas.ImageFillContain
 	img.SetMinSize(fyne.NewSize(500, 250))
+
+	imgContainer := container.NewCenter(img)
 
 	ingredientBox := container.NewVBox()
 
@@ -76,9 +85,11 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 
 			// Ako nema merne jedinice, nema smisla npr. pola jajeta
 			if unit == "" {
-				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %d", ingredient.Name, int(math.Round(q)))))
+				txt := canvas.NewText(fmt.Sprintf("%s: %d", ingredient.Name, int(math.Round(q))), color.Black)
+				ingredientBox.Add(txt)
 			} else {
-				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %.2f %s", ingredient.Name, math.Round(q*10)/10, unit)))
+				txt := canvas.NewText(fmt.Sprintf("%s: %.2f %s", ingredient.Name, math.Round(q*10)/10, unit), color.Black)
+				ingredientBox.Add(txt)
 			}
 		}
 
@@ -91,43 +102,56 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 
 	// numerisanje koraka (mozemo da izbacimo?)
 	for i, step := range recipe.Steps {
-		steps = append(steps, widget.NewLabel(strconv.Itoa(i+1)+". "+step))
+		txt := canvas.NewText(strconv.Itoa(i+1)+". "+step, color.Black)
+		steps = append(steps, txt)
 	}
 
 	// Pravimo slajder
-	servingsLabel := widget.NewLabel(fmt.Sprintf("Osobe: %d", base))
+	servingsLabel := canvas.NewText(fmt.Sprintf("Osobe: %d", base), color.Black)
+	servingsLabel.TextStyle.Bold = true
 
 	servingsSlider := widget.NewSlider(1, 20)
 	servingsSlider.Step = 1
 	servingsSlider.Value = float64(base)
 	servingsSlider.OnChanged = func(v float64) {
 		target = int32(v)
-		servingsLabel.SetText(fmt.Sprintf("Osobe: %d", target))
+		servingsLabel.Text = fmt.Sprintf("Osobe: %d", target)
+		servingsLabel.Refresh()
 		updateIngredients()
 	}
 
-	lbl := canvas.NewText("Sastojci:", color.White)
+	lbl := canvas.NewText("Sastojci:", color.Black)
 	lbl.TextStyle.Bold = true
 
-	lbl1 := canvas.NewText("Priprema:", color.White)
+	lbl1 := canvas.NewText("Priprema:", color.Black)
 	lbl1.TextStyle.Bold = true
+
+	ingredientsBg := canvas.NewRectangle(color.NRGBA{R: 255, G: 255, B: 255, A: 180})
+	ingredientsBg.CornerRadius = 20
+
+	stepsBg := canvas.NewRectangle(color.NRGBA{R: 255, G: 255, B: 255, A: 180})
+	stepsBg.CornerRadius = 20
+
+	//ingredientsCard := container.NewCenter(container.NewStack(ingredientsBg, container.NewPadded(container.NewVBox(servingsLabel, servingsSlider, lbl, ingredientBox))))
+	ingredientsCard := container.NewStack(ingredientsBg, container.NewPadded(container.NewVBox(servingsLabel, servingsSlider, lbl, ingredientBox)))
+
+	//stepsCard := container.NewCenter(container.NewStack(stepsBg, container.NewPadded(container.NewVBox(lbl1, container.NewVBox(steps...)))))
+	stepsCard := container.NewStack(stepsBg, container.NewPadded(container.NewVBox(lbl1, container.NewVBox(steps...))))
 
 	// celi prozor za recept
 	content := container.NewVBox(makeBack(w, func() {
 		ShowAllRecipes(w, recipes, ii)
 	}),
 		title,
-		container.NewHBox(img),
+		container.NewCenter(imgContainer),
 
-		servingsLabel,
-		servingsSlider,
-
-		container.NewVBox(lbl, ingredientBox),
-		container.NewVBox(lbl1, container.NewVBox(steps...)),
+		ingredientsCard,
+		widget.NewSeparator(),
+		stepsCard,
 	)
 
 	// skrolovanje
-	w.SetContent(container.NewScroll(content))
+	w.SetContent(withBackground(container.NewScroll(content), "galaxy.jpg"))
 }
 
 // prikazuje sve recepte kao dugmice
@@ -160,5 +184,5 @@ func ShowAllRecipes(w fyne.Window, recipes []*models.Recipe, ii *models.Inverted
 	}), nil, nil, nil, container.NewPadded(grid))
 	// dodaje razmak od ivica
 
-	w.SetContent(container.NewScroll(content))
+	w.SetContent(withBackground(container.NewScroll(content), "galaxy.jpg"))
 }
