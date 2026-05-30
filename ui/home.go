@@ -27,15 +27,14 @@ func makeCard(
 	click func(),
 ) fyne.CanvasObject {
 
-	bg := canvas.NewRectangle(
-		color.RGBA{230, 245, 255, 255},
-	)
-	bg.CornerRadius = 20
+	bg := canvas.NewRectangle(color.RGBA{230, 245, 255, 255})
+	bg.CornerRadius = 30
 
 	btn := widget.NewButton("", click)
 
 	label := canvas.NewText(text, color.White)
 	label.TextSize = size
+	label.TextStyle.Bold = true
 
 	return container.NewStack(
 		bg,
@@ -47,7 +46,7 @@ func makeCard(
 func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex) {
 
 	search := widget.NewEntry()
-	search.SetPlaceHolder("Pretrazi")
+	search.SetPlaceHolder("Pretraga")
 
 	search.OnSubmitted = func(text string) {
 		rec := SearchRecipes(text, recipes)
@@ -114,13 +113,7 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 
 	content := container.NewBorder(search, nil, nil, nil, container.NewPadded(grid))
 
-	floating := container.NewVBox(
-		layout.NewSpacer(),
-		container.NewHBox(
-			layout.NewSpacer(),
-			addBtn,
-		),
-	)
+	floating := container.NewVBox(layout.NewSpacer(), container.NewHBox(layout.NewSpacer(), addBtn))
 
 	w.SetContent(
 		container.NewStack(

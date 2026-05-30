@@ -73,7 +73,7 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 	lbl := canvas.NewText("Sastojci:", color.White)
 	lbl.TextStyle.Bold = true
 
-	lbl1 := canvas.NewText("Postupak:", color.White)
+	lbl1 := canvas.NewText("Priprema:", color.White)
 	lbl1.TextStyle.Bold = true
 
 	// celi prozor za recept
@@ -88,7 +88,7 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 
 		container.NewVBox(lbl, container.NewVBox(ingredients...)),
 
-		widget.NewLabel("Postupak"),
+		widget.NewLabel("Priprema"),
 		container.NewVBox(lbl1, container.NewVBox(steps...)),
 	)
 

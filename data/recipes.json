@@ -18,10 +18,12 @@
     ],
     "steps": [
       "Ispržiti crni i beli luk. Dodati meso i šargarepe.",
-      "Kada se proprži dodati sos od paradajza, začiniti po želji (so, biber, vegeta) i kuvati na laganoj vatri oko pola sata.",
+      "Kada se proprži dodati sos od paradajza, začiniti po želji (so, biber, vegeta).",
+      "Kuvati na laganoj vatri oko pola sata.",
       "Za bešamel sos, na ulju i puteru propržiti brašno, na vrlo niskoj temperaturi.",
       "Polako dodavati mleko, stalno mešajući. Dodati i začine,a zatim i narendani sir.",
-      "U posudu za pečenje prvo staviti red mea, preko toga staviti red kora za lazanje, zatim red belog sosa i sir. Ponoviti postupak dok imate sastojaka i na kraju dodajte parmezan.",
+      "U posudu za pečenje prvo staviti red mea, preko toga staviti red kora za lazanje, zatim red belog sosa i sir.",
+      "Ponoviti postupak dok imate sastojaka i na kraju dodajte parmezan.",
       "Pokriti aluminijumskom folijom i peći oko 1 sat na 180°C. Nakon sat vremena skloniti foliju i zapeći još 10 minuta."
     ],
     "image": "lazanje.jpg",
@@ -44,9 +46,11 @@
     ],
     "steps": [
       "Na maslinovom ulju ispržiti crveni i ljubičasti luk, a zatim dodati šargarepu.",
-      "Dodati iseckanu tikvicu i papriku. Kada povrće omekša dodati meso, beli luk i začine po izboru. Pržite dok meso ne bude gotovo.",
+      "Dodati iseckanu tikvicu i papriku. Kada povrće omekša dodati meso, beli luk i začine po izboru.",
+       "Pržite dok meso ne bude gotovo.",
       "Krompir isecite na tanke krugove. Stavite malo ulja i soli i promešajte.",
-      "U pleh dodajte malo ulja zatim polovinu krompira na dno. Po tome raspodelite prethodno napravljenu mešavinu i preostalu polovinu krompira.",
+      "U pleh dodajte malo ulja zatim polovinu krompira na dno.",
+       "Po tome raspodelite prethodno napravljenu mešavinu i preostalu polovinu krompira.",
       "Prekrijte aluminijumskom folijom i pecite 40 minuta na 200°C.",
       "Nakon 40 minuta sklonite foliju, prelijte umućenim jajima i mlekom i ostavite da se peče jos 10-15min."
     ],
@@ -379,29 +383,6 @@
     "image": "piletina_parmigiana.jpg",
     "servings": 5
   },
-
-  {
-    "name": "Tiramisu",
-    "ingredients": [
-      {"name":"Piškote","quantity":300,"unit":"g"},
-      {"name":"Maskarpone sir","quantity":500,"unit":"g"},
-      {"name":"Jaja","quantity":4,"unit":" "},
-      {"name":"Šećer","quantity":120,"unit":"g"},
-      {"name":"Kafa","quantity":300,"unit":"ml"},
-      {"name":"Kakao","quantity":30,"unit":"g"}
-    ],
-    "steps": [
-      "Umutite žumanca sa šećerom.",
-      "Dodajte maskarpone.",
-      "Posebno umutite belanca i umešajte.",
-      "Piškote kratko umačite u kafu.",
-      "Ređajte red piškota pa fil i ponavljajte postupak dok imate smese.",
-      "Pospite kakaom i hladite preko noći."
-    ],
-    "image": "tiramisu.jpg",
-    "servings": 8
-  },
-
   {
     "name": "Bolognese pasta",
     "ingredients": [
@@ -714,5 +695,814 @@
     ],
     "image": "cezar.jpg",
     "servings": 2
+  },
+  [
+  {
+    "name": "Piletina u kokos sosu sa basmati pirinčem",
+    "ingredients": [
+      {"name":"Pileći file","quantity":600,"unit":"g"},
+      {"name":"Kokosovo mleko","quantity":400,"unit":"ml"},
+      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Beli luk","quantity":3,"unit":"čena"},
+      {"name":"Curry pasta","quantity":2,"unit":"kašike"},
+      {"name":"Basmati pirinač","quantity":300,"unit":"g"},
+      {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
+    ],
+    "steps": [
+      "Skuvati basmati pirinač i ostaviti sa strane.",
+      "Na ulju propržiti crni i beli luk dok ne postanu staklasti.",
+      "Dodati piletinu isečenu na kocke i pržiti dok ne dobije boju.",
+      "Umešati curry pastu i kratko propržiti da pusti aromu.",
+      "Sipati kokosovo mleko i kuvati 15-20 minuta na srednjoj temperaturi.",
+      "Servirati uz pirinač."
+    ],
+    "image": "kokos_piletina.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Goveđi gulaš",
+    "ingredients": [
+      {"name":"Juneće meso","quantity":700,"unit":"g"},
+      {"name":"Crni luk","quantity":2,"unit":" "},
+      {"name":"Šargarepa","quantity":2,"unit":" "},
+      {"name":"Paradajz sos","quantity":300,"unit":"ml"},
+      {"name":"Bujon","quantity":500,"unit":"ml"},
+      {"name":"Paprika mlevena","quantity":2,"unit":"kašike"},
+      {"name":"Ulje","quantity":3,"unit":"kašike"}
+    ],
+    "steps": [
+      "Na ulju propržiti luk dok ne postane zlatan.",
+      "Dodati meso i dinstati dok ne pusti i ispari tečnost.",
+      "Dodati šargarepu i začine.",
+      "Sipati paradajz sos i bujon.",
+      "Kuvati na laganoj vatri 1.5-2 sata dok meso ne omekša."
+    ],
+    "image": "gulas.jpg",
+    "servings": 5
+  },
+  {
+    "name": "Pasta sa tunjevinom i paradajzom",
+    "ingredients": [
+      {"name":"Pasta","quantity":400,"unit":"g"},
+      {"name":"Tunjevina","quantity":200,"unit":"g"},
+      {"name":"Paradajz","quantity":3,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Beli luk","quantity":2,"unit":"čena"},
+      {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
+    ],
+    "steps": [
+      "Skuvati pastu po upustvu sa pakovanja.",
+      "Na ulju propržiti crni i beli luk.",
+      "Dodati seckani paradajz i kuvati dok se ne raspadne.",
+      "Umešati tunjevinu.",
+      "Dodati pastu i sjediniti."
+    ],
+    "image": "tuna_pasta.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Piletina sa medom i senfom",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Med","quantity":2,"unit":"kašike"},
+      {"name":"Senf","quantity":2,"unit":"kašike"},
+      {"name":"Soja sos","quantity":2,"unit":"kašike"},
+      {"name":"Beli luk","quantity":2,"unit":"čena"}
+    ],
+    "steps": [
+      "Pomešati med, senf i soja sos.",
+      "Marinirati piletinu 30 minuta.",
+      "Ispržiti piletinu na tiganju.",
+      "Dodati preostalu marinadu i kuvati dok se ne zgusne."
+    ],
+    "image": "med_senf_piletina.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Giros u tortilji",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Tortilje","quantity":4,"unit":" "},
+      {"name":"Jogurt","quantity":200,"unit":"ml"},
+      {"name":"Krastavac","quantity":1,"unit":" "},
+      {"name":"Beli luk","quantity":2,"unit":"čena"}
+    ],
+    "steps": [
+      "Ispeći piletinu začinjenu giros začinima.",
+      "Napraviti tzatziki sos od jogurta, krastavca i belog luka.",
+      "Puniti tortilje piletinom i sosom.",
+      "Uviti i servirati."
+    ],
+    "image": "giros.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Pita sa sirom i spanaćem",
+    "ingredients": [
+      {"name":"Kore za pitu","quantity":500,"unit":"g"},
+      {"name":"Spanać","quantity":300,"unit":"g"},
+      {"name":"Sir","quantity":300,"unit":"g"},
+      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Jogurt","quantity":200,"unit":"ml"}
+    ],
+    "steps": [
+      "Pomešati spanać, sir i jaja.",
+      "Filovati kore.",
+      "Peći 40 minuta na 200°C."
+    ],
+    "image": "pita_spanac.jpg",
+    "servings": 6
+  },
+  {
+    "name": "Piletina teriyaki",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Soja sos","quantity":4,"unit":"kašike"},
+      {"name":"Med","quantity":2,"unit":"kašike"},
+      {"name":"Đumbir","quantity":10,"unit":"g"}
+    ],
+    "steps": [
+      "Napraviti teriyaki sos.",
+      "Marinirati piletinu.",
+      "Ispeći na tiganju.",
+      "Preliti sosom i servirati."
+    ],
+    "image": "teriyaki.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Zapečeni krompir sa piletinom",
+    "ingredients": [
+      {"name":"Krompir","quantity":700,"unit":"g"},
+      {"name":"Pileći file","quantity":400,"unit":"g"},
+      {"name":"Sir","quantity":200,"unit":"g"},
+      {"name":"Pavlaka","quantity":200,"unit":"ml"}
+    ],
+    "steps": [
+      "Iseći krompir i piletinu.",
+      "Pomešati sa pavlakom.",
+      "Staviti u pleh i posuti sirom.",
+      "Peći 45 minuta."
+    ],
+    "image": "krompir_piletina.jpg",
+    "servings": 5
+  },
+  {
+    "name": "Musaka od tikvica",
+    "ingredients": [
+      {"name":"Tikvica","quantity":3,"unit":" "},
+      {"name":"Mleveno meso","quantity":500,"unit":"g"},
+      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Pavlaka","quantity":200,"unit":"ml"}
+    ],
+    "steps": [
+      "Ispržiti meso.",
+      "Nizati tikvice i meso u slojevima.",
+      "Preliti jajima i pavlakom.",
+      "Peći 40 minuta."
+    ],
+    "image": "musaka_tikvica.jpg",
+    "servings": 6
+  },
+  {
+    "name": "Piletina u rerni sa povrćem",
+    "ingredients": [
+      {"name":"Pileći bataci","quantity":6,"unit":"kom"},
+      {"name":"Krompir","quantity":500,"unit":"g"},
+      {"name":"Šargarepa","quantity":2,"unit":" "},
+      {"name":"Paprika","quantity":2,"unit":" "},
+      {"name":"Maslinovo ulje","quantity":3,"unit":"kašike"}
+    ],
+    "steps": [
+      "Sve začiniti i staviti u pleh.",
+      "Peći 60 minuta na 200°C.",
+      "Povremeno okrenuti meso."
+    ],
+    "image": "piletina_rerna.jpg",
+    "servings": 5
+  },
+  {
+    "name": "Fajitas sa piletinom",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Paprika","quantity":2,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Tortilje","quantity":4,"unit":" "},
+      {"name":"Limun","quantity":1,"unit":" "}
+    ],
+    "steps": [
+      "Ispeći piletinu i povrće.",
+      "Začiniti limunom i začinima.",
+      "Puniti tortilje."
+    ],
+    "image": "fajitas.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Zapečeni makaroni sa mesom",
+    "ingredients": [
+      {"name":"Makarone","quantity":400,"unit":"g"},
+      {"name":"Mleveno meso","quantity":500,"unit":"g"},
+      {"name":"Paradajz sos","quantity":400,"unit":"ml"},
+      {"name":"Sir","quantity":200,"unit":"g"}
+    ],
+    "steps": [
+      "Skuvati makarone.",
+      "Napraviti sos od mesa.",
+      "Sjediniti i zapeci sa sirom."
+    ],
+    "image": "makarone_meso.jpg",
+    "servings": 6
+  },
+  {
+    "name": "Piletina sa limunom i belim lukom",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Beli luk","quantity":4,"unit":"čena"},
+      {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
+    ],
+    "steps": [
+      "Marinirati piletinu limunom i belim lukom.",
+      "Ispeći na tiganju.",
+      "Služiti toplo."
+    ],
+    "image": "limun_piletina.jpg",
+    "servings": 4
   }
+],
+[
+  {
+    "name": "Losos sa medom i senfom",
+    "ingredients": [
+      {"name":"File lososa","quantity":500,"unit":"g"},
+      {"name":"Med","quantity":2,"unit":"kašike"},
+      {"name":"Dijon senf","quantity":2,"unit":"kašike"},
+      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Maslinovo ulje","quantity":2,"unit":"kašike"}
+    ],
+    "steps": [
+      "Pomešati med, senf i sok od limuna.",
+      "Premazati losos marinadom i ostaviti 20 minuta.",
+      "Peći u rerni 15-20 minuta na 200°C.",
+      "Služiti uz povrće ili pirinač."
+    ],
+    "image": "losos_med_senf.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Tuna bowl",
+    "ingredients": [
+      {"name":"Tunjevina","quantity":200,"unit":"g"},
+      {"name":"Avokado","quantity":1,"unit":" "},
+      {"name":"Pirinač","quantity":200,"unit":"g"},
+      {"name":"Kukuruz","quantity":100,"unit":"g"},
+      {"name":"Krastavac","quantity":1,"unit":" "},
+      {"name":"Soja sos","quantity":2,"unit":"kašike"}
+    ],
+    "steps": [
+      "Skuvati pirinač i ohladiti.",
+      "Naseckati povrće i avokado.",
+      "Složiti sve u činiju.",
+      "Dodati tunjevinu i soja sos."
+    ],
+    "image": "tuna_bowl.jpg",
+    "servings": 2
+  },
+  {
+    "name": "Piletina kung pao",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Soja sos","quantity":3,"unit":"kašike"},
+      {"name":"Kikiriki","quantity":80,"unit":"g"},
+      {"name":"Paprika","quantity":2,"unit":" "},
+      {"name":"Beli luk","quantity":3,"unit":"čena"},
+      {"name":"Ljuta paprika","quantity":1,"unit":" "},
+      {"name":"Med","quantity":1,"unit":"kašika"}
+    ],
+    "steps": [
+      "Ispržiti piletinu na kockice.",
+      "Dodati papriku i beli luk.",
+      "Dodati soja sos i med.",
+      "Na kraju dodati kikiriki."
+    ],
+    "image": "kung_pao.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Sushi bowl",
+    "ingredients": [
+      {"name":"Sushi pirinač","quantity":250,"unit":"g"},
+      {"name":"Losos","quantity":200,"unit":"g"},
+      {"name":"Avokado","quantity":1,"unit":" "},
+      {"name":"Krastavac","quantity":1,"unit":" "},
+      {"name":"Soja sos","quantity":2,"unit":"kašike"},
+      {"name":"Susam","quantity":1,"unit":"kašika"}
+    ],
+    "steps": [
+      "Skuvati sushi pirinač i ohladiti.",
+      "Naseći losos i povrće.",
+      "Složiti u činiju.",
+      "Dodati soja sos i susam."
+    ],
+    "image": "sushi_bowl.jpg",
+    "servings": 2
+  },
+  {
+    "name": "Gambori u puteru i belom luku",
+    "ingredients": [
+      {"name":"Gambori","quantity":400,"unit":"g"},
+      {"name":"Puter","quantity":50,"unit":"g"},
+      {"name":"Beli luk","quantity":4,"unit":"čena"},
+      {"name":"Limun","quantity":1,"unit":" "},
+      {"name":"Peršun","quantity":20,"unit":"g"}
+    ],
+    "steps": [
+      "Otopiti puter.",
+      "Dodati beli luk i gambore.",
+      "Pržiti 5-7 minuta.",
+      "Dodati limun i peršun."
+    ],
+    "image": "gambori_puter.jpg",
+    "servings": 3
+  },
+  {
+    "name": "Pasta sa sirom i spanaćem",
+    "ingredients": [
+      {"name":"Pasta","quantity":400,"unit":"g"},
+      {"name":"Spanać","quantity":200,"unit":"g"},
+      {"name":"Krem sir","quantity":150,"unit":"g"},
+      {"name":"Beli luk","quantity":2,"unit":"čena"},
+      {"name":"Parmezan","quantity":80,"unit":"g"}
+    ],
+    "steps": [
+      "Skuvati pastu.",
+      "Propržiti beli luk i spanać.",
+      "Dodati krem sir.",
+      "Pomešati sa testeninom."
+    ],
+    "image": "pasta_spanac.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Grčki giros tanjir",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Krompir","quantity":400,"unit":"g"},
+      {"name":"Tzatziki sos","quantity":200,"unit":"ml"},
+      {"name":"Pita hleb","quantity":2,"unit":" "},
+      {"name":"Paradajz","quantity":2,"unit":" "}
+    ],
+    "steps": [
+      "Ispeći piletinu sa začinima.",
+      "Ispržiti ili ispeći krompir.",
+      "Pripremiti tzatziki sos.",
+      "Složiti sve na tanjir."
+    ],
+    "image": "gyros.jpg",
+    "servings": 3
+  },
+  {
+    "name": "Ramen supa",
+    "ingredients": [
+      {"name":"Ramen rezanci","quantity":200,"unit":"g"},
+      {"name":"Pileći bujon","quantity":800,"unit":"ml"},
+      {"name":"Jaje","quantity":2,"unit":" "},
+      {"name":"Soja sos","quantity":3,"unit":"kašike"},
+      {"name":"Beli luk","quantity":2,"unit":"čena"}
+    ],
+    "steps": [
+      "Skuvati bujon sa začinima.",
+      "Dodati rezance.",
+      "Dodati jaja i soja sos.",
+      "Kuvati 5-7 minuta."
+    ],
+    "image": "ramen.jpg",
+    "servings": 2
+  },
+  {
+    "name": "Miso supa",
+    "ingredients": [
+      {"name":"Miso pasta","quantity":3,"unit":"kašike"},
+      {"name":"Tofu","quantity":200,"unit":"g"},
+      {"name":"Alge","quantity":20,"unit":"g"},
+      {"name":"Bujon","quantity":800,"unit":"ml"}
+    ],
+    "steps": [
+      "Zagrejati bujon.",
+      "Dodati miso pastu.",
+      "Dodati tofu i alge.",
+      "Kuvati 5 minuta."
+    ],
+    "image": "miso.jpg",
+    "servings": 2
+  },
+  {
+    "name": "Piletina sa paradajz sosom i mocarelom",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Paradajz sos","quantity":400,"unit":"ml"},
+      {"name":"Mocarela","quantity":200,"unit":"g"},
+      {"name":"Beli luk","quantity":2,"unit":"čena"}
+    ],
+    "steps": [
+      "Ispržiti piletinu.",
+      "Dodati paradajz sos.",
+      "Prekriti mocarelom.",
+      "Zapeći 15 minuta."
+    ],
+    "image": "piletina_mocarela.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Šakšuka",
+    "ingredients": [
+      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Paradajz","quantity":4,"unit":" "},
+      {"name":"Paprika","quantity":2,"unit":" "},
+      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Beli luk","quantity":2,"unit":"čena"}
+    ],
+    "steps": [
+      "Dinstati povrće dok ne omekša.",
+      "Napraviti rupe i ubaciti jaja.",
+      "Kuvati dok se jaja ne stegnu."
+    ],
+    "image": "shakshuka.jpg",
+    "servings": 3
+  },
+  {
+    "name": "Falafel",
+    "ingredients": [
+      {"name":"Leblebije","quantity":300,"unit":"g"},
+      {"name":"Beli luk","quantity":3,"unit":"čena"},
+      {"name":"Peršun","quantity":20,"unit":"g"},
+      {"name":"Brašno","quantity":2,"unit":"kašike"}
+    ],
+    "steps": [
+      "Izblendati leblebije i začine.",
+      "Formirati kuglice.",
+      "Pržiti u dubokom ulju."
+    ],
+    "image": "falafel.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Pita sa mesom",
+    "ingredients": [
+      {"name":"Kore","quantity":500,"unit":"g"},
+      {"name":"Mleveno meso","quantity":500,"unit":"g"},
+      {"name":"Crni luk","quantity":1,"unit":" "},
+      {"name":"Jaja","quantity":2,"unit":" "}
+    ],
+    "steps": [
+      "Ispržiti meso i luk.",
+      "Filovati kore.",
+      "Peći 40 minuta."
+    ],
+    "image": "pita_meso.jpg",
+    "servings": 6
+  },
+  {
+    "name": "Piletina u soja sosu sa povrćem",
+    "ingredients": [
+      {"name":"Pileći file","quantity":500,"unit":"g"},
+      {"name":"Soja sos","quantity":4,"unit":"kašike"},
+      {"name":"Brokoli","quantity":200,"unit":"g"},
+      {"name":"Šargarepa","quantity":2,"unit":" "}
+    ],
+    "steps": [
+      "Ispržiti piletinu.",
+      "Dodati povrće.",
+      "Dodati soja sos i dinstati 10 minuta."
+    ],
+    "image": "soja_piletina.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Krem brulee",
+    "ingredients": [
+      {"name":"Slatka pavlaka","quantity":400,"unit":"ml"},
+      {"name":"Jaja","quantity":4,"unit":"žumanca"},
+      {"name":"Šećer","quantity":100,"unit":"g"},
+      {"name":"Vanila","quantity":1,"unit":"kesica"}
+    ],
+    "steps": [
+      "Zagrejati pavlaku sa vanilom.",
+      "Umutiti žumanca i šećer.",
+      "Peci u vodenoj kupki.",
+      "Karamelizovati šećer odozgo."
+    ],
+    "image": "creme_brulee.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Cheesecake",
+    "ingredients": [
+      {"name":"Keks","quantity":300,"unit":"g"},
+      {"name":"Puter","quantity":120,"unit":"g"},
+      {"name":"Krem sir","quantity":500,"unit":"g"},
+      {"name":"Šećer","quantity":150,"unit":"g"}
+    ],
+    "steps": [
+      "Napraviti koru od keksa i putera.",
+      "Umutiti fil.",
+      "Ohladiti 4 sata."
+    ],
+    "image": "cheesecake.jpg",
+    "servings": 8
+  },
+  {
+    "name": "Panna cotta",
+    "ingredients": [
+      {"name":"Slatka pavlaka","quantity":400,"unit":"ml"},
+      {"name":"Šećer","quantity":80,"unit":"g"},
+      {"name":"Želatin","quantity":10,"unit":"g"},
+      {"name":"Vanila","quantity":1,"unit":" "},
+      {"name":"Maline","quantity":100,"unit":"g"}
+    ],
+    "steps": [
+      "Zagrejati pavlaku.",
+      "Dodati želatin.",
+      "Ohladiti u kalupima",
+      "Dodati maline ili bilo koje voće po želji."
+    ],
+    "image": "panna_cotta.jpg",
+    "servings": 4
+  }
+],
+[
+  {
+    "name": "Čizkejk sa šumskim voćem",
+    "ingredients": [
+      {"name":"Keks","quantity":300,"unit":"g"},
+      {"name":"Puter","quantity":120,"unit":"g"},
+      {"name":"Krem sir","quantity":600,"unit":"g"},
+      {"name":"Šećer","quantity":150,"unit":"g"},
+      {"name":"Slatka pavlaka","quantity":250,"unit":"ml"},
+      {"name":"Šumsko voće","quantity":300,"unit":"g"},
+      {"name":"Želatin","quantity":10,"unit":"g"}
+    ],
+    "steps": [
+      "Izmrviti keks u sitne mrvice i pomešati ga sa otopljenim puterom dok ne dobijete vlažnu smesu koja se može oblikovati.",
+      "Utisnuti smesu u kalup i dobro pritisnuti kašikom da se formira čvrsta podloga, zatim staviti u frižider na 30 minuta.",
+      "U posudi umutiti krem sir i šećer dok smesa ne postane potpuno glatka i bez grudvica.",
+      "U drugoj posudi umutiti slatku pavlaku do čvrstog šlaga pa je lagano sjediniti sa krem sirom.",
+      "Pripremiti želatin po uputstvu i dodati u smesu uz stalno mešanje da se ravnomerno rasporedi.",
+      "Sipati fil preko ohlađene kore i ostaviti u frižideru minimum 4 sata da se stegne.",
+      "Šumsko voće kratko prokuvati sa malo šećera i preliti preko ohlađenog čizkejka pre serviranja."
+    ],
+    "image": "cheesecake_sum_voce.jpg",
+    "servings": 10
+  },
+  {
+    "name": "Čokoladna torta sa ganache kremom",
+    "ingredients": [
+      {"name":"Brašno","quantity":300,"unit":"g"},
+      {"name":"Kakao","quantity":80,"unit":"g"},
+      {"name":"Šećer","quantity":250,"unit":"g"},
+      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Mleko","quantity":250,"unit":"ml"},
+      {"name":"Puter","quantity":150,"unit":"g"},
+      {"name":"Tamna čokolada","quantity":200,"unit":"g"},
+      {"name":"Slatka pavlaka","quantity":200,"unit":"ml"}
+    ],
+    "steps": [
+      "Umutiti jaja i šećer dok smesa ne postane penasta i svetlija.",
+      "Dodati otopljen puter i mleko, pa lagano sjediniti.",
+      "Umešati brašno, kakao i prašak za pecivo dok se ne dobije glatka masa bez grudvica.",
+      "Sipati smesu u kalup i peći oko 35-40 minuta na 180°C, zatim potpuno ohladiti.",
+      "Zagrejati slatku pavlaku do vrenja i preliti preko izlomljene čokolade da se istopi.",
+      "Mešati dok se ne dobije glatka ganache krema i ostaviti da se malo zgusne.",
+      "Premazati tortu ganache kremom i ostaviti da odstoji minimum 2 sata pre sečenja."
+    ],
+    "image": "cokoladna_torta_ganache.jpg",
+    "servings": 12
+  },
+  {
+    "name": "Red velvet torta",
+    "ingredients": [
+      {"name":"Brašno","quantity":300,"unit":"g"},
+      {"name":"Šećer","quantity":250,"unit":"g"},
+      {"name":"Kakao","quantity":15,"unit":"g"},
+      {"name":"Jaja","quantity":2,"unit":" "},
+      {"name":"Puter","quantity":120,"unit":"g"},
+      {"name":"Mleko","quantity":250,"unit":"ml"},
+      {"name":"Crvena prehrambena boja","quantity":2,"unit":"kašike"},
+      {"name":"Krem sir","quantity":400,"unit":"g"}
+    ],
+    "steps": [
+      "Umutiti puter i šećer dok ne postanu penasti.",
+      "Dodati jaja jedno po jedno i nastaviti mućenje.",
+      "Umešati mleko i crvenu boju dok smesa ne postane ujednačeno crvena.",
+      "Dodati suve sastojke i lagano sjediniti.",
+      "Podeliti smesu u kalup i peći 30-35 minuta na 180°C.",
+      "Umutiti krem sir i šećer u prahu za fil.",
+      "Nakon hlađenja slagati kore i filovati krem sirom između slojeva i spolja."
+    ],
+    "image": "red_velvet.jpg",
+    "servings": 10
+  },
+  {
+    "name": "Voćna torta sa piškotama",
+    "ingredients": [
+      {"name":"Piškote","quantity":300,"unit":"g"},
+      {"name":"Slatka pavlaka","quantity":400,"unit":"ml"},
+      {"name":"Jogurt","quantity":200,"unit":"ml"},
+      {"name":"Šećer","quantity":120,"unit":"g"},
+      {"name":"Želatin","quantity":10,"unit":"g"},
+      {"name":"Voće po izboru","quantity":300,"unit":"g"}
+    ],
+    "steps": [
+      "Umutiti slatku pavlaku u čvrst šlag.",
+      "Dodati jogurt i šećer i lagano sjediniti.",
+      "Pripremiti želatin i dodati u krem smesu.",
+      "U kalup slagati piškote koje se kratko umaču u mleko.",
+      "Preko piškota sipati sloj kreme i voća.",
+      "Ponoviti postupak dok se materijal ne potroši.",
+      "Ostaviti tortu da se stegne minimum 4 sata u frižideru."
+    ],
+    "image": "vocna_torta.jpg",
+    "servings": 10
+  },
+  {
+    "name": "Medovik",
+    "ingredients": [
+      {"name":"Med","quantity":3,"unit":"kašike"},
+      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Šećer","quantity":200,"unit":"g"},
+      {"name":"Brašno","quantity":500,"unit":"g"},
+      {"name":"Puter","quantity":100,"unit":"g"},
+      {"name":"Pavlaka","quantity":500,"unit":"g"}
+    ],
+    "steps": [
+      "Otopiti med, puter i šećer na laganoj vatri.",
+      "Dodati jaja i brzo mešati da se ne skuvaju.",
+      "Umešati brašno i zamesiti mekano testo.",
+      "Podeliti testo na više tankih kora i peći svaku posebno.",
+      "Umutiti pavlaku i šećer kao fil.",
+      "Slagati kore i premazivati filom između svake.",
+      "Ostaviti tortu preko noći da kore omekšaju."
+    ],
+    "image": "medovik.jpg",
+    "servings": 12
+  },
+  {
+    "name": "Tiramisu",
+    "ingredients": [
+      {"name":"Piškote","quantity":400,"unit":"g"},
+      {"name":"Maskarpone","quantity":500,"unit":"g"},
+      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Šećer","quantity":150,"unit":"g"},
+      {"name":"Espresso kafa","quantity":300,"unit":"ml"},
+      {"name":"Kakao","quantity":30,"unit":"g"}
+    ],
+    "steps": [
+      "Umutiti žumanca sa šećerom dok ne pobele.",
+      "Dodati maskarpone i sjediniti krem.",
+      "Posebno umutiti belanca i lagano ih umešati u krem.",
+      "Piškote kratko umačati u ohlađenu kafu.",
+      "Slagati red piškota, red krema dok se ne potroši smesa.",
+      "Ostaviti u frižideru minimum 6 sati.",
+      "Posuti kakaom pre serviranja."
+    ],
+    "image": "tiramisu.jpg",
+    "servings": 8
+  },
+  {
+    "name": "Čokoladni lava kolač",
+    "ingredients": [
+      {"name":"Tamna čokolada","quantity":200,"unit":"g"},
+      {"name":"Puter","quantity":120,"unit":"g"},
+      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Šećer","quantity":100,"unit":"g"},
+      {"name":"Brašno","quantity":60,"unit":"g"}
+    ],
+    "steps": [
+      "Otopiti čokoladu i puter zajedno.",
+      "Umutiti jaja i šećer dok ne postanu penasti.",
+      "Sjediniti smese i dodati brašno.",
+      "Sipati u kalupe.",
+      "Peći 10-12 minuta na 200°C da spolja bude čvrsto a unutra tečno."
+    ],
+    "image": "lava_kolac.jpg",
+    "servings": 4
+  },
+  {
+    "name": "Voćni tart",
+    "ingredients": [
+      {"name":"Brašno","quantity":250,"unit":"g"},
+      {"name":"Puter","quantity":125,"unit":"g"},
+      {"name":"Šećer","quantity":100,"unit":"g"},
+      {"name":"Jaje","quantity":1,"unit":" "},
+      {"name":"Krem puding","quantity":400,"unit":"g"},
+      {"name":"Voće","quantity":300,"unit":"g"}
+    ],
+    "steps": [
+      "Zamesiti prhko testo od brašna, putera i jajeta.",
+      "Ostaviti testo da odmori u frižideru 30 minuta.",
+      "Razvući i peći koru 20 minuta na 180°C.",
+      "Ohladiti koru i premazati krem pudingom.",
+      "Dekorisati svežim voćem.",
+      "Ostaviti da se stegne pre serviranja."
+    ],
+    "image": "vocni_tart.jpg",
+    "servings": 8
+  },
+  {
+    "name": "Banana karamela torta",
+    "ingredients": [
+      {"name":"Banane","quantity":4,"unit":" "},
+      {"name":"Šećer","quantity":200,"unit":"g"},
+      {"name":"Puter","quantity":100,"unit":"g"},
+      {"name":"Brašno","quantity":250,"unit":"g"},
+      {"name":"Jaja","quantity":3,"unit":" "},
+      {"name":"Slatka pavlaka","quantity":200,"unit":"ml"}
+    ],
+    "steps": [
+      "Napraviti karamel od šećera i putera.",
+      "Dodati isečene banane u karamel i kratko promešati.",
+      "Umutiti testo od brašna i jaja.",
+      "Sipati preko banana i peći 35 minuta.",
+      "Okrenuti tortu i preliti preostalim karamelom."
+    ],
+    "image": "banana_karamela.jpg",
+    "servings": 10
+  },
+  {
+    "name": "Bečka štrudla sa jabukama",
+    "ingredients": [
+      {"name":"Jabuke","quantity":5,"unit":" "},
+      {"name":"Brašno","quantity":300,"unit":"g"},
+      {"name":"Šećer","quantity":150,"unit":"g"},
+      {"name":"Cimet","quantity":2,"unit":"kašičice"},
+      {"name":"Puter","quantity":100,"unit":"g"}
+    ],
+    "steps": [
+      "Zamesiti testo i razvući ga tanko.",
+      "Jabuke narendati i pomešati sa šećerom i cimetom.",
+      "Filovati testo i urolati.",
+      "Peći 40 minuta na 180°C.",
+      "Posuti šećerom u prahu."
+    ],
+    "image": "strudla_jabuka.jpg",
+    "servings": 8
+  },
+  {
+    "name": "Dubai čokoladna torta",
+    "ingredients": [
+      {"name":"Čokolada","quantity":300,"unit":"g"},
+      {"name":"Puter","quantity":150,"unit":"g"},
+      {"name":"Keks","quantity":200,"unit":"g"},
+      {"name":"Slatka pavlaka","quantity":300,"unit":"ml"},
+      {"name":"Pistaći","quantity":100,"unit":"g"}
+    ],
+    "steps": [
+      "Napraviti čokoladni biskvit i ohladiti.",
+      "Umutiti ganaš od čokolade i pavlake.",
+      "Dodati pistaće u fil.",
+      "Slagati kore i fil.",
+      "Dekorisati pistaćima i čokoladom."
+    ],
+    "image": "dubai_torta.jpg",
+    "servings": 10
+  },
+  {
+    "name": "Čokoladne profiterole",
+    "ingredients": [
+      {"name":"Voda","quantity":250,"unit":"ml"},
+      {"name":"Brašno","quantity":150,"unit":"g"},
+      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Čokolada","quantity":200,"unit":"g"},
+      {"name":"Slatka pavlaka","quantity":300,"unit":"ml"}
+    ],
+    "steps": [
+      "Napraviti choux testo i peći male kuglice.",
+      "Umutiti šlag od pavlake.",
+      "Puniti kuglice kremom.",
+      "Preliti čokoladom."
+    ],
+    "image": "profiterole.jpg",
+    "servings": 10
+  },
+  {
+    "name": "Milka torta",
+    "ingredients": [
+      {"name":"Milka čokolada","quantity":300,"unit":"g"},
+      {"name":"Puter","quantity":150,"unit":"g"},
+      {"name":"Jaja","quantity":4,"unit":" "},
+      {"name":"Brašno","quantity":200,"unit":"g"},
+      {"name":"Šećer","quantity":200,"unit":"g"}
+    ],
+    "steps": [
+      "Otopiti čokoladu i puter.",
+      "Umutiti jaja i šećer.",
+      "Dodati brašno i čokoladu.",
+      "Ispeći biskvit.",
+      "Premazati čokoladnim kremom."
+    ],
+    "image": "milka_torta.jpg",
+    "servings": 10
+  }
+]
 ]
