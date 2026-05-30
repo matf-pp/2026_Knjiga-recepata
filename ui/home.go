@@ -7,7 +7,6 @@ import (
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
 	"fyne.io/fyne/v2/widget"
 )
 
@@ -48,6 +47,27 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 	search := widget.NewEntry()
 	search.SetPlaceHolder("Pretraga")
 
+	makeImageButton := func(imgPath, title string, click func()) fyne.CanvasObject {
+		img := canvas.NewImageFromFile(imgPath)
+		img.FillMode = canvas.ImageFillCover
+
+		overlay := canvas.NewRectangle(color.NRGBA{0, 0, 0, 0})
+
+		label := canvas.NewText(title, color.White)
+		label.TextStyle.Bold = true
+		label.TextSize = 32
+
+		btn := widget.NewButton("", click)
+		btn.Importance = widget.LowImportance
+
+		return container.NewStack(
+			img,
+			container.NewCenter(label),
+			overlay,
+			btn,
+		)
+	}
+
 	search.OnSubmitted = func(text string) {
 		rec := SearchRecipes(text, recipes)
 
@@ -82,17 +102,17 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 		w.SetContent(container.NewScroll(content))
 	}
 
-	topCard := makeCard(
+	topCard := makeImageButton(
+		"images/all_recipes.jpg",
 		"Svi recepti",
-		28,
 		func() {
 			ShowAllRecipes(w, recipes, ii)
 		},
 	)
 
-	bottomCard := makeCard(
+	bottomCard := makeImageButton(
+		"images/ingredients.jpg",
 		"Biranje namirnica",
-		28,
 		func() {
 			ShowIngredientSearch(
 				w,
@@ -105,21 +125,13 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 	// velicina dugmica se menja menjanjem velicine prozora
 	grid := container.NewGridWithRows(2, topCard, bottomCard)
 
-	addBtn := widget.NewButton("+", func() {
-		placeholderScreen(w, "Dodavanje recepata", recipes, ii)
-	})
-
-	bg := canvas.NewRectangle(color.RGBA{245, 245, 245, 255})
-
-	content := container.NewBorder(search, nil, nil, nil, container.NewPadded(grid))
-
-	floating := container.NewVBox(layout.NewSpacer(), container.NewHBox(layout.NewSpacer(), addBtn))
-
-	w.SetContent(
-		container.NewStack(
-			bg,
-			content,
-			container.NewPadded(floating),
-		),
+	content := container.NewBorder(
+		search,
+		nil,
+		nil,
+		nil,
+		container.NewPadded(grid),
 	)
+
+	w.SetContent(content)
 }

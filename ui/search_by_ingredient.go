@@ -28,6 +28,17 @@ func ShowIngredientSearch(w fyne.Window, recipes []*models.Recipe, ii *models.In
 		checks = append(checks, check)
 	}
 
+	// Biranje opcija
+	searchType := widget.NewRadioGroup([]string{
+		"Sve namirnice",
+		"Bar jedna namirnica",
+	},
+		nil,
+	)
+
+	// Ono sto je automatski postavljeno
+	searchType.SetSelected("Sve namirnice")
+
 	// Prikazuje recepte
 	btn := widget.NewButton("Prikaži recepte", func() {
 
@@ -42,8 +53,15 @@ func ShowIngredientSearch(w fyne.Window, recipes []*models.Recipe, ii *models.In
 			}
 		}
 
-		// Filtriramo po njima sve recepte
-		result := ii.Filter(ingredients)
+		var result *models.Set
+
+		// Filtriramo u zavisnosti od opcije
+
+		if searchType.Selected == "Sve namirnice" {
+			result = ii.Filter(ingredients)
+		} else {
+			result = ii.FilterAny(ingredients)
+		}
 
 		var buttons []fyne.CanvasObject
 
@@ -79,5 +97,5 @@ func ShowIngredientSearch(w fyne.Window, recipes []*models.Recipe, ii *models.In
 	// Menja pocetni ekran
 	w.SetContent(container.NewScroll(container.NewVBox(makeBack(w, func() {
 		ShowHome(w, recipes, ii)
-	}), grid, btn)))
+	}), searchType, grid, btn)))
 }

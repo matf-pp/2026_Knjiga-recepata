@@ -4,9 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"image/color"
+	"math"
 	"os"
 	"sort"
 	"strconv"
+	"strings"
 
 	"2026_Knjiga-recepata/models"
 
@@ -54,20 +56,54 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 	img.FillMode = canvas.ImageFillContain
 	img.SetMinSize(fyne.NewSize(500, 250))
 
-	var ingredients []fyne.CanvasObject
+	ingredientBox := container.NewVBox()
 
-	// pravimo listu sastojaka
-	for _, ing := range recipe.Ingredients {
-		text := ing.Name + ": " + strconv.FormatFloat(ing.Quantity, 'f', 0, 64) + " " + ing.Unit
+	// Kolicina sa kojom krecemo i koju zelimo
+	base := recipe.Servings
+	target := recipe.Servings
 
-		ingredients = append(ingredients, widget.NewLabel(text))
+	// Funkcija koja azurira kolicinu
+	updateIngredients := func() {
+		ingredientBox.Objects = nil
+
+		// Koeficijent za menjanje namirnica
+		ratio := float64(target) / float64(base)
+
+		for _, ingredient := range recipe.Ingredients {
+			// Nova kolicina
+			q := ingredient.Quantity * ratio
+			unit := strings.ToLower(strings.TrimSpace(ingredient.Unit))
+
+			// Ako nema merne jedinice, nema smisla npr. pola jajeta
+			if unit == "" {
+				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %d", ingredient.Name, int(math.Round(q)))))
+			} else {
+				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %.2f %s", ingredient.Name, math.Round(q*10)/10, unit)))
+			}
+		}
+
+		ingredientBox.Refresh()
 	}
+
+	updateIngredients()
 
 	var steps []fyne.CanvasObject
 
 	// numerisanje koraka (mozemo da izbacimo?)
 	for i, step := range recipe.Steps {
 		steps = append(steps, widget.NewLabel(strconv.Itoa(i+1)+". "+step))
+	}
+
+	// Pravimo slajder
+	servingsLabel := widget.NewLabel(fmt.Sprintf("Osobe: %d", base))
+
+	servingsSlider := widget.NewSlider(1, 20)
+	servingsSlider.Step = 1
+	servingsSlider.Value = float64(base)
+	servingsSlider.OnChanged = func(v float64) {
+		target = int32(v)
+		servingsLabel.SetText(fmt.Sprintf("Osobe: %d", target))
+		updateIngredients()
 	}
 
 	lbl := canvas.NewText("Sastojci:", color.White)
@@ -81,14 +117,12 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 		ShowAllRecipes(w, recipes, ii)
 	}),
 		title,
-
 		container.NewHBox(img),
 
-		widget.NewLabel(fmt.Sprintf("Osobe: %d", recipe.Servings)),
+		servingsLabel,
+		servingsSlider,
 
-		container.NewVBox(lbl, container.NewVBox(ingredients...)),
-
-		widget.NewLabel("Priprema"),
+		container.NewVBox(lbl, ingredientBox),
 		container.NewVBox(lbl1, container.NewVBox(steps...)),
 	)
 
