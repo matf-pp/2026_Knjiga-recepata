@@ -44,7 +44,7 @@ func (ii *InvertedIndex) IngredientNames() []string {
 	return names
 }
 
-// Filtriramo vec postojece inverted index
+// Filtriramo vec postojece inverted index, i vracamo recepete koji sadrze sve unesene namirnice
 func (ii *InvertedIndex) Filter(ingredients []*Ingredient) *Set {
 	ingredientsLen := len(ingredients)
 
@@ -85,4 +85,25 @@ func (ii *InvertedIndex) Filter(ingredients []*Ingredient) *Set {
 	}
 
 	return result
+}
+
+// Vracamo recepte koji sadrze bar 1 od namernica
+func (ii *InvertedIndex) FilterAny(ingredients []*Ingredient) *Set {
+	results := NewSet()
+
+	for _, ingredient := range ingredients {
+		set := ii.index[ingredient.Name]
+
+		// Ako je skup prazan prelazimo na sledecu namernicu
+		if set == nil {
+			continue
+		}
+
+		// Dodajemo sve recepte sa datom namernicom
+		for r := range set.elements {
+			results.Add(r)
+		}
+	}
+
+	return results
 }
