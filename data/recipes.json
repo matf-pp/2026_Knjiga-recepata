@@ -696,7 +696,6 @@
     "image": "cezar.jpg",
     "servings": 2
   },
-  [
   {
     "name": "Piletina u kokos sosu sa basmati pirinčem",
     "ingredients": [
@@ -929,9 +928,7 @@
     ],
     "image": "limun_piletina.jpg",
     "servings": 4
-  }
-],
-[
+  },
   {
     "name": "Losos sa medom i senfom",
     "ingredients": [
@@ -1229,9 +1226,7 @@
     ],
     "image": "panna_cotta.jpg",
     "servings": 4
-  }
-],
-[
+  },
   {
     "name": "Čizkejk sa šumskim voćem",
     "ingredients": [
@@ -1504,5 +1499,4 @@
     "image": "milka_torta.jpg",
     "servings": 10
   }
-]
 ]
