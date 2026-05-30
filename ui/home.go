@@ -105,15 +105,11 @@ func ShowHome(w fyne.Window, recipes []*models.Recipe, ii *models.InvertedIndex)
 	// velicina dugmica se menja menjanjem velicine prozora
 	grid := container.NewGridWithRows(2, topCard, bottomCard)
 
-	addBtn := widget.NewButton("+", func() {
-		placeholderScreen(w, "Dodavanje recepata", recipes, ii)
-	})
-
 	bg := canvas.NewRectangle(color.RGBA{245, 245, 245, 255})
 
 	content := container.NewBorder(search, nil, nil, nil, container.NewPadded(grid))
 
-	floating := container.NewVBox(layout.NewSpacer(), container.NewHBox(layout.NewSpacer(), addBtn))
+	floating := container.NewVBox(layout.NewSpacer())
 
 	w.SetContent(
 		container.NewStack(

@@ -58,22 +58,27 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 
 	ingredientBox := container.NewVBox()
 
+	// Kolicina sa kojom krecemo i koju zelimo
 	base := recipe.Servings
 	target := recipe.Servings
 
+	// Funkcija koja azurira kolicinu
 	updateIngredients := func() {
 		ingredientBox.Objects = nil
 
+		// Koeficijent za menjanje namirnica
 		ratio := float64(target) / float64(base)
 
 		for _, ingredient := range recipe.Ingredients {
+			// Nova kolicina
 			q := ingredient.Quantity * ratio
 			unit := strings.ToLower(strings.TrimSpace(ingredient.Unit))
 
+			// Ako nema merne jedinice, nema smisla npr. pola jajeta
 			if unit == "" {
 				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %d", ingredient.Name, int(math.Round(q)))))
 			} else {
-				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %.2f %s", ingredient.Name, math.Round(q*10)/10, ingredient.Unit)))
+				ingredientBox.Add(widget.NewLabel(fmt.Sprintf("%s: %.2f %s", ingredient.Name, math.Round(q*10)/10, unit)))
 			}
 		}
 
@@ -89,6 +94,7 @@ func ShowRecipeDetail(w fyne.Window, recipe *models.Recipe, recipes []*models.Re
 		steps = append(steps, widget.NewLabel(strconv.Itoa(i+1)+". "+step))
 	}
 
+	// Pravimo slajder
 	servingsLabel := widget.NewLabel(fmt.Sprintf("Osobe: %d", base))
 
 	servingsSlider := widget.NewSlider(1, 20)
